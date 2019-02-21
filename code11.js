@@ -94,7 +94,7 @@ gdjs.BuyCarsCode.condition1IsTrue_1 = {val:false};
 gdjs.BuyCarsCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDc3bObjects1Objects = Hashtable.newFrom({"c3b": gdjs.BuyCarsCode.GDc3bObjects1});gdjs.BuyCarsCode.eventsList0xc7e160 = function(runtimeScene) {
+gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDc3bObjects1Objects = Hashtable.newFrom({"c3b": gdjs.BuyCarsCode.GDc3bObjects1});gdjs.BuyCarsCode.eventsList0xbf3e78 = function(runtimeScene) {
 
 {
 
@@ -135,8 +135,8 @@ gdjs.BuyCarsCode.GDSatisfactionTextObjects1.createFrom(runtimeScene.getObjects("
 }
 
 
-}; //End of gdjs.BuyCarsCode.eventsList0xc7e160
-gdjs.BuyCarsCode.eventsList0xc8abf0 = function(runtimeScene) {
+}; //End of gdjs.BuyCarsCode.eventsList0xbf3e78
+gdjs.BuyCarsCode.eventsList0xbfed10 = function(runtimeScene) {
 
 {
 
@@ -147,9 +147,9 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }if (gdjs.BuyCarsCode.condition0IsTrue_0.val) {
 gdjs.BuyCarsCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyText"));
 /* Reuse gdjs.BuyCarsCode.GDc3bObjects1 */
-{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(58)));
+{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(43)));
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11)) + 130);
-}{runtimeScene.getGame().getVariables().getFromIndex(61).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(46).setNumber(1);
 }{for(var i = 0, len = gdjs.BuyCarsCode.GDc3bObjects1.length ;i < len;++i) {
     gdjs.BuyCarsCode.GDc3bObjects1[i].setOpacity(50);
 }
@@ -158,14 +158,14 @@ gdjs.BuyCarsCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyTe
 }
 }
 { //Subevents
-gdjs.BuyCarsCode.eventsList0xc7e160(runtimeScene);} //End of subevents
+gdjs.BuyCarsCode.eventsList0xbf3e78(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyCarsCode.eventsList0xc8abf0
-gdjs.BuyCarsCode.eventsList0xce7488 = function(runtimeScene) {
+}; //End of gdjs.BuyCarsCode.eventsList0xbfed10
+gdjs.BuyCarsCode.eventsList0xbf38f8 = function(runtimeScene) {
 
 {
 
@@ -181,14 +181,14 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdj
 }
 }
 { //Subevents
-gdjs.BuyCarsCode.eventsList0xc8abf0(runtimeScene);} //End of subevents
+gdjs.BuyCarsCode.eventsList0xbfed10(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyCarsCode.eventsList0xce7488
-gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDc1bObjects1Objects = Hashtable.newFrom({"c1b": gdjs.BuyCarsCode.GDc1bObjects1});gdjs.BuyCarsCode.eventsList0xc29060 = function(runtimeScene) {
+}; //End of gdjs.BuyCarsCode.eventsList0xbf38f8
+gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDc1bObjects1Objects = Hashtable.newFrom({"c1b": gdjs.BuyCarsCode.GDc1bObjects1});gdjs.BuyCarsCode.eventsList0xc29518 = function(runtimeScene) {
 
 {
 
@@ -229,8 +229,8 @@ gdjs.BuyCarsCode.GDSatisfactionTextObjects1.createFrom(runtimeScene.getObjects("
 }
 
 
-}; //End of gdjs.BuyCarsCode.eventsList0xc29060
-gdjs.BuyCarsCode.eventsList0xbf5a20 = function(runtimeScene) {
+}; //End of gdjs.BuyCarsCode.eventsList0xc29518
+gdjs.BuyCarsCode.eventsList0x65cd18 = function(runtimeScene) {
 
 {
 
@@ -241,9 +241,9 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }if (gdjs.BuyCarsCode.condition0IsTrue_0.val) {
 gdjs.BuyCarsCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyText"));
 /* Reuse gdjs.BuyCarsCode.GDc1bObjects1 */
-{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(56)));
+{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(41)));
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11)) + 130);
-}{runtimeScene.getGame().getVariables().getFromIndex(59).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(44).setNumber(1);
 }{for(var i = 0, len = gdjs.BuyCarsCode.GDc1bObjects1.length ;i < len;++i) {
     gdjs.BuyCarsCode.GDc1bObjects1[i].setOpacity(50);
 }
@@ -252,14 +252,14 @@ gdjs.BuyCarsCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyTe
 }
 }
 { //Subevents
-gdjs.BuyCarsCode.eventsList0xc29060(runtimeScene);} //End of subevents
+gdjs.BuyCarsCode.eventsList0xc29518(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyCarsCode.eventsList0xbf5a20
-gdjs.BuyCarsCode.eventsList0xc69898 = function(runtimeScene) {
+}; //End of gdjs.BuyCarsCode.eventsList0x65cd18
+gdjs.BuyCarsCode.eventsList0xbf36b8 = function(runtimeScene) {
 
 {
 
@@ -275,14 +275,14 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdj
 }
 }
 { //Subevents
-gdjs.BuyCarsCode.eventsList0xbf5a20(runtimeScene);} //End of subevents
+gdjs.BuyCarsCode.eventsList0x65cd18(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyCarsCode.eventsList0xc69898
-gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuyCarsCode.GDButtonObjects1});gdjs.BuyCarsCode.eventsList0xbe6c78 = function(runtimeScene) {
+}; //End of gdjs.BuyCarsCode.eventsList0xbf36b8
+gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuyCarsCode.GDButtonObjects1});gdjs.BuyCarsCode.eventsList0xcf0be8 = function(runtimeScene) {
 
 {
 
@@ -297,8 +297,8 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }
 
 
-}; //End of gdjs.BuyCarsCode.eventsList0xbe6c78
-gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuyCarsCode.GDButtonObjects1});gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.BuyCarsCode.GDcloseObjects1});gdjs.BuyCarsCode.eventsList0xbe9900 = function(runtimeScene) {
+}; //End of gdjs.BuyCarsCode.eventsList0xcf0be8
+gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuyCarsCode.GDButtonObjects1});gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.BuyCarsCode.GDcloseObjects1});gdjs.BuyCarsCode.eventsList0xbf48d0 = function(runtimeScene) {
 
 {
 
@@ -307,14 +307,14 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = false;
 {
 gdjs.BuyCarsCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.BuyCarsCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.window.openURL("www.kredytofer.pl/", runtimeScene);
+{gdjs.evtTools.window.openURL("https://kredytofer.pl/", runtimeScene);
 }}
 
 }
 
 
-}; //End of gdjs.BuyCarsCode.eventsList0xbe9900
-gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.BuyCarsCode.GDcloseObjects1});gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDc2bObjects1Objects = Hashtable.newFrom({"c2b": gdjs.BuyCarsCode.GDc2bObjects1});gdjs.BuyCarsCode.eventsList0xbef6b0 = function(runtimeScene) {
+}; //End of gdjs.BuyCarsCode.eventsList0xbf48d0
+gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.BuyCarsCode.GDcloseObjects1});gdjs.BuyCarsCode.mapOfGDgdjs_46BuyCarsCode_46GDc2bObjects1Objects = Hashtable.newFrom({"c2b": gdjs.BuyCarsCode.GDc2bObjects1});gdjs.BuyCarsCode.eventsList0xc0b218 = function(runtimeScene) {
 
 {
 
@@ -355,8 +355,8 @@ gdjs.BuyCarsCode.GDSatisfactionTextObjects1.createFrom(runtimeScene.getObjects("
 }
 
 
-}; //End of gdjs.BuyCarsCode.eventsList0xbef6b0
-gdjs.BuyCarsCode.eventsList0xc14118 = function(runtimeScene) {
+}; //End of gdjs.BuyCarsCode.eventsList0xc0b218
+gdjs.BuyCarsCode.eventsList0x6ddae0 = function(runtimeScene) {
 
 {
 
@@ -367,9 +367,9 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }if (gdjs.BuyCarsCode.condition0IsTrue_0.val) {
 gdjs.BuyCarsCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyText"));
 /* Reuse gdjs.BuyCarsCode.GDc2bObjects1 */
-{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(57)));
+{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(42)));
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11)) + 130);
-}{runtimeScene.getGame().getVariables().getFromIndex(60).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(45).setNumber(1);
 }{for(var i = 0, len = gdjs.BuyCarsCode.GDc2bObjects1.length ;i < len;++i) {
     gdjs.BuyCarsCode.GDc2bObjects1[i].setOpacity(50);
 }
@@ -378,14 +378,14 @@ gdjs.BuyCarsCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyTe
 }
 }
 { //Subevents
-gdjs.BuyCarsCode.eventsList0xbef6b0(runtimeScene);} //End of subevents
+gdjs.BuyCarsCode.eventsList0xc0b218(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyCarsCode.eventsList0xc14118
-gdjs.BuyCarsCode.eventsList0x8964c0 = function(runtimeScene) {
+}; //End of gdjs.BuyCarsCode.eventsList0x6ddae0
+gdjs.BuyCarsCode.eventsList0x6dd8d8 = function(runtimeScene) {
 
 {
 
@@ -401,13 +401,13 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdj
 }
 }
 { //Subevents
-gdjs.BuyCarsCode.eventsList0xc14118(runtimeScene);} //End of subevents
+gdjs.BuyCarsCode.eventsList0x6ddae0(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyCarsCode.eventsList0x8964c0
+}; //End of gdjs.BuyCarsCode.eventsList0x6dd8d8
 gdjs.BuyCarsCode.eventsList0xb0b28 = function(runtimeScene) {
 
 {
@@ -419,13 +419,13 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = false;
 gdjs.BuyCarsCode.condition0IsTrue_1.val = false;
 gdjs.BuyCarsCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyCarsCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(56)));
+gdjs.BuyCarsCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(41)));
 if( gdjs.BuyCarsCode.condition0IsTrue_1.val ) {
     gdjs.BuyCarsCode.conditionTrue_1.val = true;
 }
 }
 {
-gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(59)) == 1;
+gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(44)) == 1;
 if( gdjs.BuyCarsCode.condition1IsTrue_1.val ) {
     gdjs.BuyCarsCode.conditionTrue_1.val = true;
 }
@@ -452,17 +452,17 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = false;
 gdjs.BuyCarsCode.condition0IsTrue_1.val = false;
 gdjs.BuyCarsCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyCarsCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(61)) == 0;
+gdjs.BuyCarsCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(46)) == 0;
 }if ( gdjs.BuyCarsCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(58));
+gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(43));
 }}
 gdjs.BuyCarsCode.conditionTrue_1.val = true && gdjs.BuyCarsCode.condition0IsTrue_1.val && gdjs.BuyCarsCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuyCarsCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.BuyCarsCode.eventsList0xce7488(runtimeScene);} //End of subevents
+gdjs.BuyCarsCode.eventsList0xbf38f8(runtimeScene);} //End of subevents
 }
 
 }
@@ -477,13 +477,13 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = false;
 gdjs.BuyCarsCode.condition0IsTrue_1.val = false;
 gdjs.BuyCarsCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyCarsCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(57)));
+gdjs.BuyCarsCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(42)));
 if( gdjs.BuyCarsCode.condition0IsTrue_1.val ) {
     gdjs.BuyCarsCode.conditionTrue_1.val = true;
 }
 }
 {
-gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(60)) == 1;
+gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(45)) == 1;
 if( gdjs.BuyCarsCode.condition1IsTrue_1.val ) {
     gdjs.BuyCarsCode.conditionTrue_1.val = true;
 }
@@ -510,13 +510,13 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = false;
 gdjs.BuyCarsCode.condition0IsTrue_1.val = false;
 gdjs.BuyCarsCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyCarsCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(58)));
+gdjs.BuyCarsCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(43)));
 if( gdjs.BuyCarsCode.condition0IsTrue_1.val ) {
     gdjs.BuyCarsCode.conditionTrue_1.val = true;
 }
 }
 {
-gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(61)) == 1;
+gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(46)) == 1;
 if( gdjs.BuyCarsCode.condition1IsTrue_1.val ) {
     gdjs.BuyCarsCode.conditionTrue_1.val = true;
 }
@@ -543,17 +543,17 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = false;
 gdjs.BuyCarsCode.condition0IsTrue_1.val = false;
 gdjs.BuyCarsCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyCarsCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(59)) == 0;
+gdjs.BuyCarsCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(44)) == 0;
 }if ( gdjs.BuyCarsCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(56));
+gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(41));
 }}
 gdjs.BuyCarsCode.conditionTrue_1.val = true && gdjs.BuyCarsCode.condition0IsTrue_1.val && gdjs.BuyCarsCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuyCarsCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.BuyCarsCode.eventsList0xc69898(runtimeScene);} //End of subevents
+gdjs.BuyCarsCode.eventsList0xbf36b8(runtimeScene);} //End of subevents
 }
 
 }
@@ -573,7 +573,7 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdj
 }
 }
 { //Subevents
-gdjs.BuyCarsCode.eventsList0xbe6c78(runtimeScene);} //End of subevents
+gdjs.BuyCarsCode.eventsList0xcf0be8(runtimeScene);} //End of subevents
 }
 
 }
@@ -610,7 +610,7 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdj
 }
 }
 { //Subevents
-gdjs.BuyCarsCode.eventsList0xbe9900(runtimeScene);} //End of subevents
+gdjs.BuyCarsCode.eventsList0xbf48d0(runtimeScene);} //End of subevents
 }
 
 }
@@ -640,7 +640,7 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = false;
 {
 gdjs.BuyCarsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) > 0;
 }if (gdjs.BuyCarsCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(126).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(111).setNumber(0);
 }}
 
 }
@@ -658,13 +658,13 @@ gdjs.BuyCarsCode.condition1IsTrue_1.val = false;
 gdjs.BuyCarsCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) == 0;
 }if ( gdjs.BuyCarsCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(126)) == 0;
+gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(111)) == 0;
 }}
 gdjs.BuyCarsCode.conditionTrue_1.val = true && gdjs.BuyCarsCode.condition0IsTrue_1.val && gdjs.BuyCarsCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuyCarsCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(10).sub(1);
-}{runtimeScene.getGame().getVariables().getFromIndex(126).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(111).setNumber(1);
 }}
 
 }
@@ -694,13 +694,13 @@ gdjs.BuyCarsCode.GDc1cObjects1.createFrom(runtimeScene.getObjects("c1c"));
 gdjs.BuyCarsCode.GDc2cObjects1.createFrom(runtimeScene.getObjects("c2c"));
 gdjs.BuyCarsCode.GDc3cObjects1.createFrom(runtimeScene.getObjects("c3c"));
 {for(var i = 0, len = gdjs.BuyCarsCode.GDc1cObjects1.length ;i < len;++i) {
-    gdjs.BuyCarsCode.GDc1cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(56))+"zł");
+    gdjs.BuyCarsCode.GDc1cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(41))+"zł");
 }
 }{for(var i = 0, len = gdjs.BuyCarsCode.GDc2cObjects1.length ;i < len;++i) {
-    gdjs.BuyCarsCode.GDc2cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(57))+"zł");
+    gdjs.BuyCarsCode.GDc2cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(42))+"zł");
 }
 }{for(var i = 0, len = gdjs.BuyCarsCode.GDc3cObjects1.length ;i < len;++i) {
-    gdjs.BuyCarsCode.GDc3cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(58)) + "zł");
+    gdjs.BuyCarsCode.GDc3cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(43)) + "zł");
 }
 }{for(var i = 0, len = gdjs.BuyCarsCode.GDMoneyTextObjects1.length ;i < len;++i) {
     gdjs.BuyCarsCode.GDMoneyTextObjects1[i].setString("Money: "+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)) + "zł");
@@ -722,17 +722,17 @@ gdjs.BuyCarsCode.condition0IsTrue_0.val = false;
 gdjs.BuyCarsCode.condition0IsTrue_1.val = false;
 gdjs.BuyCarsCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyCarsCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(60)) == 0;
+gdjs.BuyCarsCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(45)) == 0;
 }if ( gdjs.BuyCarsCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(57));
+gdjs.BuyCarsCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(42));
 }}
 gdjs.BuyCarsCode.conditionTrue_1.val = true && gdjs.BuyCarsCode.condition0IsTrue_1.val && gdjs.BuyCarsCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuyCarsCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.BuyCarsCode.eventsList0x8964c0(runtimeScene);} //End of subevents
+gdjs.BuyCarsCode.eventsList0x6dd8d8(runtimeScene);} //End of subevents
 }
 
 }

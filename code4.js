@@ -151,7 +151,7 @@ gdjs.SellViewCode.condition4IsTrue_1 = {val:false};
 gdjs.SellViewCode.condition5IsTrue_1 = {val:false};
 
 
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.SellViewCode.GDButtonObjects1});gdjs.SellViewCode.eventsList0x84c918 = function(runtimeScene) {
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.SellViewCode.GDButtonObjects1});gdjs.SellViewCode.eventsList0xbfec88 = function(runtimeScene) {
 
 {
 
@@ -166,8 +166,8 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0x84c918
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDhbtObjects1Objects = Hashtable.newFrom({"hbt": gdjs.SellViewCode.GDhbtObjects1});gdjs.SellViewCode.eventsList0xc40728 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0xbfec88
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDhbtObjects1Objects = Hashtable.newFrom({"hbt": gdjs.SellViewCode.GDhbtObjects1});gdjs.SellViewCode.eventsList0x697a28 = function(runtimeScene) {
 
 {
 
@@ -176,24 +176,24 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
 gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(86).setNumber(1);
-}{runtimeScene.getGame().getVariables().getFromIndex(89).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(87).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(88).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(71).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(74).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(72).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(0);
 }}
 
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xc40728
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDhbtObjects1Objects = Hashtable.newFrom({"hbt": gdjs.SellViewCode.GDhbtObjects1});gdjs.SellViewCode.eventsList0xc814b8 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0x697a28
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDhbtObjects1Objects = Hashtable.newFrom({"hbt": gdjs.SellViewCode.GDhbtObjects1});gdjs.SellViewCode.eventsList0xbf6320 = function(runtimeScene) {
 
 {
 
 
 gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(86)) == 1;
+gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 1;
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.SellViewCode.GDhbtObjects1 */
 {for(var i = 0, len = gdjs.SellViewCode.GDhbtObjects1.length ;i < len;++i) {
@@ -204,15 +204,15 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xc814b8
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDabtObjects1Objects = Hashtable.newFrom({"abt": gdjs.SellViewCode.GDabtObjects1});gdjs.SellViewCode.eventsList0xc69e10 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0xbf6320
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDabtObjects1Objects = Hashtable.newFrom({"abt": gdjs.SellViewCode.GDabtObjects1});gdjs.SellViewCode.eventsList0xc366e0 = function(runtimeScene) {
 
 {
 
 
 gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(87)) == 1;
+gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 1;
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.SellViewCode.GDabtObjects1 */
 {for(var i = 0, len = gdjs.SellViewCode.GDabtObjects1.length ;i < len;++i) {
@@ -223,8 +223,8 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xc69e10
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDabtObjects1Objects = Hashtable.newFrom({"abt": gdjs.SellViewCode.GDabtObjects1});gdjs.SellViewCode.eventsList0xc39f88 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0xc366e0
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDabtObjects1Objects = Hashtable.newFrom({"abt": gdjs.SellViewCode.GDabtObjects1});gdjs.SellViewCode.eventsList0x659060 = function(runtimeScene) {
 
 {
 
@@ -233,17 +233,17 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
 gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(86).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(87).setNumber(1);
-}{runtimeScene.getGame().getVariables().getFromIndex(88).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(89).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(71).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(72).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(74).setNumber(0);
 }}
 
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xc39f88
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDcbtObjects1Objects = Hashtable.newFrom({"cbt": gdjs.SellViewCode.GDcbtObjects1});gdjs.SellViewCode.eventsList0x743870 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0x659060
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDcbtObjects1Objects = Hashtable.newFrom({"cbt": gdjs.SellViewCode.GDcbtObjects1});gdjs.SellViewCode.eventsList0xbf38b8 = function(runtimeScene) {
 
 {
 
@@ -252,24 +252,24 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
 gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(86).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(87).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(88).setNumber(1);
-}{runtimeScene.getGame().getVariables().getFromIndex(89).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(71).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(72).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(74).setNumber(0);
 }}
 
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0x743870
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDcbtObjects1Objects = Hashtable.newFrom({"cbt": gdjs.SellViewCode.GDcbtObjects1});gdjs.SellViewCode.eventsList0xbf5a20 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0xbf38b8
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDcbtObjects1Objects = Hashtable.newFrom({"cbt": gdjs.SellViewCode.GDcbtObjects1});gdjs.SellViewCode.eventsList0x661f58 = function(runtimeScene) {
 
 {
 
 
 gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(88)) == 1;
+gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 1;
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.SellViewCode.GDcbtObjects1 */
 {for(var i = 0, len = gdjs.SellViewCode.GDcbtObjects1.length ;i < len;++i) {
@@ -280,15 +280,15 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xbf5a20
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDsbtObjects1Objects = Hashtable.newFrom({"sbt": gdjs.SellViewCode.GDsbtObjects1});gdjs.SellViewCode.eventsList0xaaeaa0 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0x661f58
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDsbtObjects1Objects = Hashtable.newFrom({"sbt": gdjs.SellViewCode.GDsbtObjects1});gdjs.SellViewCode.eventsList0xbf4b28 = function(runtimeScene) {
 
 {
 
 
 gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(89)) == 1;
+gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74)) == 1;
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.SellViewCode.GDsbtObjects1 */
 {for(var i = 0, len = gdjs.SellViewCode.GDsbtObjects1.length ;i < len;++i) {
@@ -299,8 +299,8 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xaaeaa0
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDsbtObjects1Objects = Hashtable.newFrom({"sbt": gdjs.SellViewCode.GDsbtObjects1});gdjs.SellViewCode.eventsList0xbebe20 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0xbf4b28
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDsbtObjects1Objects = Hashtable.newFrom({"sbt": gdjs.SellViewCode.GDsbtObjects1});gdjs.SellViewCode.eventsList0xc295a8 = function(runtimeScene) {
 
 {
 
@@ -309,98 +309,32 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
 gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(86).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(87).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(88).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(89).setNumber(1);
-}}
-
-}
-
-
-}; //End of gdjs.SellViewCode.eventsList0xbebe20
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.SellViewCode.GDButtonObjects1});gdjs.SellViewCode.eventsList0xbecf80 = function(runtimeScene) {
-
-{
-
-
-gdjs.SellViewCode.condition0IsTrue_0.val = false;
-{
-gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(87)) == 1;
-}if (gdjs.SellViewCode.condition0IsTrue_0.val) {
-}
-
-}
-
-
-}; //End of gdjs.SellViewCode.eventsList0xbecf80
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs1Objects1Objects = Hashtable.newFrom({"s1": gdjs.SellViewCode.GDs1Objects1});gdjs.SellViewCode.eventsList0x6c2a90 = function(runtimeScene) {
-
-{
-
-
-gdjs.SellViewCode.condition0IsTrue_0.val = false;
-{
-{gdjs.SellViewCode.conditionTrue_1 = gdjs.SellViewCode.condition0IsTrue_0;
-gdjs.SellViewCode.condition0IsTrue_1.val = false;
-gdjs.SellViewCode.condition1IsTrue_1.val = false;
-{
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(86)) == 1;
-}if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
-{
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(53)) == 1;
-}}
-gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
-}
-}if (gdjs.SellViewCode.condition0IsTrue_0.val) {
-gdjs.SellViewCode.GDm1Objects2.createFrom(runtimeScene.getObjects("m1"));
-gdjs.SellViewCode.GDst1Objects2.createFrom(runtimeScene.getObjects("st1"));
-{runtimeScene.getGame().getVariables().getFromIndex(53).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(93)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(114)));
-}{for(var i = 0, len = gdjs.SellViewCode.GDm1Objects2.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm1Objects2[i].setOpacity(50);
-}
-}{for(var i = 0, len = gdjs.SellViewCode.GDst1Objects2.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst1Objects2[i].setOpacity(50);
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.SellViewCode.condition0IsTrue_0.val = false;
-{
-{gdjs.SellViewCode.conditionTrue_1 = gdjs.SellViewCode.condition0IsTrue_0;
-gdjs.SellViewCode.condition0IsTrue_1.val = false;
-gdjs.SellViewCode.condition1IsTrue_1.val = false;
-{
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(87)) == 1;
-}if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
-{
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 1;
-}}
-gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
-}
-}if (gdjs.SellViewCode.condition0IsTrue_0.val) {
-gdjs.SellViewCode.GDm1Objects2.createFrom(runtimeScene.getObjects("m1"));
-gdjs.SellViewCode.GDst1Objects2.createFrom(runtimeScene.getObjects("st1"));
 {runtimeScene.getGame().getVariables().getFromIndex(71).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(99)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(117)));
-}{for(var i = 0, len = gdjs.SellViewCode.GDst1Objects2.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst1Objects2[i].setOpacity(50);
-}
-}{for(var i = 0, len = gdjs.SellViewCode.GDm1Objects2.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm1Objects2[i].setOpacity(50);
-}
+}{runtimeScene.getGame().getVariables().getFromIndex(72).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(74).setNumber(1);
 }}
 
 }
 
+
+}; //End of gdjs.SellViewCode.eventsList0xc295a8
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.SellViewCode.GDButtonObjects1});gdjs.SellViewCode.eventsList0xc29148 = function(runtimeScene) {
+
+{
+
+
+gdjs.SellViewCode.condition0IsTrue_0.val = false;
+{
+gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 1;
+}if (gdjs.SellViewCode.condition0IsTrue_0.val) {
+}
+
+}
+
+
+}; //End of gdjs.SellViewCode.eventsList0xc29148
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs1Objects1Objects = Hashtable.newFrom({"s1": gdjs.SellViewCode.GDs1Objects1});gdjs.SellViewCode.eventsList0xbff6c8 = function(runtimeScene) {
 
 {
 
@@ -411,19 +345,52 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(89)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(65)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(38)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDm1Objects2.createFrom(runtimeScene.getObjects("m1"));
 gdjs.SellViewCode.GDst1Objects2.createFrom(runtimeScene.getObjects("st1"));
-{runtimeScene.getGame().getVariables().getFromIndex(65).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(111)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(123)));
+{runtimeScene.getGame().getVariables().getFromIndex(38).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(78)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(99)));
+}{for(var i = 0, len = gdjs.SellViewCode.GDm1Objects2.length ;i < len;++i) {
+    gdjs.SellViewCode.GDm1Objects2[i].setOpacity(50);
+}
+}{for(var i = 0, len = gdjs.SellViewCode.GDst1Objects2.length ;i < len;++i) {
+    gdjs.SellViewCode.GDst1Objects2[i].setOpacity(50);
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.SellViewCode.condition0IsTrue_0.val = false;
+{
+{gdjs.SellViewCode.conditionTrue_1 = gdjs.SellViewCode.condition0IsTrue_0;
+gdjs.SellViewCode.condition0IsTrue_1.val = false;
+gdjs.SellViewCode.condition1IsTrue_1.val = false;
+{
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 1;
+}if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
+{
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(56)) == 1;
+}}
+gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
+}
+}if (gdjs.SellViewCode.condition0IsTrue_0.val) {
+gdjs.SellViewCode.GDm1Objects2.createFrom(runtimeScene.getObjects("m1"));
+gdjs.SellViewCode.GDst1Objects2.createFrom(runtimeScene.getObjects("st1"));
+{runtimeScene.getGame().getVariables().getFromIndex(56).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(84)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(102)));
 }{for(var i = 0, len = gdjs.SellViewCode.GDst1Objects2.length ;i < len;++i) {
     gdjs.SellViewCode.GDst1Objects2[i].setOpacity(50);
 }
@@ -444,19 +411,52 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(88)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(59)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(50)) == 1;
+}}
+gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
+}
+}if (gdjs.SellViewCode.condition0IsTrue_0.val) {
+gdjs.SellViewCode.GDm1Objects2.createFrom(runtimeScene.getObjects("m1"));
+gdjs.SellViewCode.GDst1Objects2.createFrom(runtimeScene.getObjects("st1"));
+{runtimeScene.getGame().getVariables().getFromIndex(50).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(96)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(108)));
+}{for(var i = 0, len = gdjs.SellViewCode.GDst1Objects2.length ;i < len;++i) {
+    gdjs.SellViewCode.GDst1Objects2[i].setOpacity(50);
+}
+}{for(var i = 0, len = gdjs.SellViewCode.GDm1Objects2.length ;i < len;++i) {
+    gdjs.SellViewCode.GDm1Objects2[i].setOpacity(50);
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.SellViewCode.condition0IsTrue_0.val = false;
+{
+{gdjs.SellViewCode.conditionTrue_1 = gdjs.SellViewCode.condition0IsTrue_0;
+gdjs.SellViewCode.condition0IsTrue_1.val = false;
+gdjs.SellViewCode.condition1IsTrue_1.val = false;
+{
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 1;
+}if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
+{
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(44)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDm1Objects1.createFrom(runtimeScene.getObjects("m1"));
 gdjs.SellViewCode.GDst1Objects1.createFrom(runtimeScene.getObjects("st1"));
-{runtimeScene.getGame().getVariables().getFromIndex(59).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(105)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(120)));
+{runtimeScene.getGame().getVariables().getFromIndex(44).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(90)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(105)));
 }{for(var i = 0, len = gdjs.SellViewCode.GDst1Objects1.length ;i < len;++i) {
     gdjs.SellViewCode.GDst1Objects1[i].setOpacity(50);
 }
@@ -468,8 +468,8 @@ gdjs.SellViewCode.GDst1Objects1.createFrom(runtimeScene.getObjects("st1"));
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0x6c2a90
-gdjs.SellViewCode.eventsList0xbfbc30 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0xbff6c8
+gdjs.SellViewCode.eventsList0xbff510 = function(runtimeScene) {
 
 {
 
@@ -480,14 +480,14 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.SellViewCode.eventsList0x6c2a90(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0xbff6c8(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xbfbc30
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs2Objects1Objects = Hashtable.newFrom({"s2": gdjs.SellViewCode.GDs2Objects1});gdjs.SellViewCode.eventsList0xbfeaf0 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0xbff510
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs2Objects1Objects = Hashtable.newFrom({"s2": gdjs.SellViewCode.GDs2Objects1});gdjs.SellViewCode.eventsList0x89b640 = function(runtimeScene) {
 
 {
 
@@ -498,19 +498,19 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(86)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(54)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(39)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDm2Objects2.createFrom(runtimeScene.getObjects("m2"));
 gdjs.SellViewCode.GDst2Objects2.createFrom(runtimeScene.getObjects("st2"));
-{runtimeScene.getGame().getVariables().getFromIndex(54).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(94)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(115)));
+{runtimeScene.getGame().getVariables().getFromIndex(39).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(79)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(100)));
 }{for(var i = 0, len = gdjs.SellViewCode.GDm2Objects2.length ;i < len;++i) {
     gdjs.SellViewCode.GDm2Objects2[i].setOpacity(50);
 }
@@ -531,19 +531,19 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(87)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(57)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDm2Objects2.createFrom(runtimeScene.getObjects("m2"));
 gdjs.SellViewCode.GDst2Objects2.createFrom(runtimeScene.getObjects("st2"));
-{runtimeScene.getGame().getVariables().getFromIndex(72).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(100)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(118)));
+{runtimeScene.getGame().getVariables().getFromIndex(57).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(85)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(103)));
 }{for(var i = 0, len = gdjs.SellViewCode.GDst2Objects2.length ;i < len;++i) {
     gdjs.SellViewCode.GDst2Objects2[i].setOpacity(50);
 }
@@ -564,19 +564,19 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(89)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(66)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(51)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDm2Objects2.createFrom(runtimeScene.getObjects("m2"));
 gdjs.SellViewCode.GDst2Objects2.createFrom(runtimeScene.getObjects("st2"));
-{runtimeScene.getGame().getVariables().getFromIndex(66).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(112)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(124)));
+{runtimeScene.getGame().getVariables().getFromIndex(51).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(97)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(109)));
 }{for(var i = 0, len = gdjs.SellViewCode.GDst2Objects2.length ;i < len;++i) {
     gdjs.SellViewCode.GDst2Objects2[i].setOpacity(50);
 }
@@ -597,19 +597,19 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(88)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(60)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(45)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDm2Objects1.createFrom(runtimeScene.getObjects("m2"));
 gdjs.SellViewCode.GDst2Objects1.createFrom(runtimeScene.getObjects("st2"));
-{runtimeScene.getGame().getVariables().getFromIndex(60).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(106)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(121)));
+{runtimeScene.getGame().getVariables().getFromIndex(45).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(91)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(106)));
 }{for(var i = 0, len = gdjs.SellViewCode.GDst2Objects1.length ;i < len;++i) {
     gdjs.SellViewCode.GDst2Objects1[i].setOpacity(50);
 }
@@ -621,8 +621,8 @@ gdjs.SellViewCode.GDst2Objects1.createFrom(runtimeScene.getObjects("st2"));
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xbfeaf0
-gdjs.SellViewCode.eventsList0xc07b78 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0x89b640
+gdjs.SellViewCode.eventsList0xba97f0 = function(runtimeScene) {
 
 {
 
@@ -633,14 +633,14 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.SellViewCode.eventsList0xbfeaf0(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0x89b640(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xc07b78
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs3Objects1Objects = Hashtable.newFrom({"s3": gdjs.SellViewCode.GDs3Objects1});gdjs.SellViewCode.eventsList0xc364a8 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0xba97f0
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs3Objects1Objects = Hashtable.newFrom({"s3": gdjs.SellViewCode.GDs3Objects1});gdjs.SellViewCode.eventsList0x661a98 = function(runtimeScene) {
 
 {
 
@@ -651,19 +651,19 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(86)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(55)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(40)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDm3Objects2.createFrom(runtimeScene.getObjects("m3"));
 gdjs.SellViewCode.GDst3Objects2.createFrom(runtimeScene.getObjects("st3"));
-{runtimeScene.getGame().getVariables().getFromIndex(55).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(95)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(116)));
+{runtimeScene.getGame().getVariables().getFromIndex(40).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(80)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(101)));
 }{for(var i = 0, len = gdjs.SellViewCode.GDm3Objects2.length ;i < len;++i) {
     gdjs.SellViewCode.GDm3Objects2[i].setOpacity(50);
 }
@@ -684,19 +684,19 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(87)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(58)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDm3Objects2.createFrom(runtimeScene.getObjects("m3"));
 gdjs.SellViewCode.GDst3Objects2.createFrom(runtimeScene.getObjects("st3"));
-{runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(101)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(119)));
+{runtimeScene.getGame().getVariables().getFromIndex(58).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(86)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(104)));
 }{for(var i = 0, len = gdjs.SellViewCode.GDm3Objects2.length ;i < len;++i) {
     gdjs.SellViewCode.GDm3Objects2[i].setOpacity(50);
 }
@@ -717,19 +717,19 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(89)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(67)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(52)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDm3Objects2.createFrom(runtimeScene.getObjects("m3"));
 gdjs.SellViewCode.GDst3Objects2.createFrom(runtimeScene.getObjects("st3"));
-{runtimeScene.getGame().getVariables().getFromIndex(67).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(113)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(125)));
+{runtimeScene.getGame().getVariables().getFromIndex(52).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(98)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(110)));
 }{for(var i = 0, len = gdjs.SellViewCode.GDm3Objects2.length ;i < len;++i) {
     gdjs.SellViewCode.GDm3Objects2[i].setOpacity(50);
 }
@@ -750,19 +750,19 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(88)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(61)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(46)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDm3Objects1.createFrom(runtimeScene.getObjects("m3"));
 gdjs.SellViewCode.GDst3Objects1.createFrom(runtimeScene.getObjects("st3"));
-{runtimeScene.getGame().getVariables().getFromIndex(61).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(107)));
-}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(122)));
+{runtimeScene.getGame().getVariables().getFromIndex(46).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11))-gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(92)));
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4))+gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(107)));
 }{for(var i = 0, len = gdjs.SellViewCode.GDm3Objects1.length ;i < len;++i) {
     gdjs.SellViewCode.GDm3Objects1[i].setOpacity(50);
 }
@@ -774,8 +774,8 @@ gdjs.SellViewCode.GDst3Objects1.createFrom(runtimeScene.getObjects("st3"));
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xc364a8
-gdjs.SellViewCode.eventsList0xc362b0 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0x661a98
+gdjs.SellViewCode.eventsList0x6618a0 = function(runtimeScene) {
 
 {
 
@@ -786,14 +786,14 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.SellViewCode.eventsList0xc364a8(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0x661a98(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xc362b0
-gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs1Objects1Objects = Hashtable.newFrom({"s1": gdjs.SellViewCode.GDs1Objects1});gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs2Objects1Objects = Hashtable.newFrom({"s2": gdjs.SellViewCode.GDs2Objects1});gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs3Objects1Objects = Hashtable.newFrom({"s3": gdjs.SellViewCode.GDs3Objects1});gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.SellViewCode.GDcloseObjects1});gdjs.SellViewCode.eventsList0xc2e0b8 = function(runtimeScene) {
+}; //End of gdjs.SellViewCode.eventsList0x6618a0
+gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs1Objects1Objects = Hashtable.newFrom({"s1": gdjs.SellViewCode.GDs1Objects1});gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs2Objects1Objects = Hashtable.newFrom({"s2": gdjs.SellViewCode.GDs2Objects1});gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs3Objects1Objects = Hashtable.newFrom({"s3": gdjs.SellViewCode.GDs3Objects1});gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.SellViewCode.GDcloseObjects1});gdjs.SellViewCode.eventsList0xcf13f8 = function(runtimeScene) {
 
 {
 
@@ -802,13 +802,13 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
 gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.window.openURL("www.kredytofer.pl/", runtimeScene);
+{gdjs.evtTools.window.openURL("http://kredytofer.pl", runtimeScene);
 }}
 
 }
 
 
-}; //End of gdjs.SellViewCode.eventsList0xc2e0b8
+}; //End of gdjs.SellViewCode.eventsList0xcf13f8
 gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.SellViewCode.GDcloseObjects1});gdjs.SellViewCode.eventsList0xb0b28 = function(runtimeScene) {
 
 {
@@ -825,7 +825,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0x84c918(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0xbfec88(runtimeScene);} //End of subevents
 }
 
 }
@@ -845,7 +845,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xc40728(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0x697a28(runtimeScene);} //End of subevents
 }
 
 }
@@ -865,7 +865,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xc814b8(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0xbf6320(runtimeScene);} //End of subevents
 }
 
 }
@@ -885,7 +885,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xc69e10(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0xc366e0(runtimeScene);} //End of subevents
 }
 
 }
@@ -905,7 +905,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xc39f88(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0x659060(runtimeScene);} //End of subevents
 }
 
 }
@@ -925,7 +925,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0x743870(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0xbf38b8(runtimeScene);} //End of subevents
 }
 
 }
@@ -945,7 +945,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xbf5a20(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0x661f58(runtimeScene);} //End of subevents
 }
 
 }
@@ -965,7 +965,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xaaeaa0(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0xbf4b28(runtimeScene);} //End of subevents
 }
 
 }
@@ -985,7 +985,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xbebe20(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0xc295a8(runtimeScene);} //End of subevents
 }
 
 }
@@ -1020,7 +1020,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 
 gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(86)) == 1;
+gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 1;
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDa1Objects1.createFrom(runtimeScene.getObjects("a1"));
 gdjs.SellViewCode.GDa2Objects1.createFrom(runtimeScene.getObjects("a2"));
@@ -1077,26 +1077,26 @@ gdjs.SellViewCode.GDst3Objects1.createFrom(runtimeScene.getObjects("st3"));
     gdjs.SellViewCode.GDa3Objects1[i].setOpacity(0);
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst1Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst1Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(93)));
+    gdjs.SellViewCode.GDst1Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(78)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst2Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst2Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(94)));
+    gdjs.SellViewCode.GDst2Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(79)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst3Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst3Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(95)));
+    gdjs.SellViewCode.GDst3Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(80)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm3Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm3Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(116)));
+    gdjs.SellViewCode.GDm3Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(101)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm2Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm2Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(115)));
+    gdjs.SellViewCode.GDm2Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(100)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm1Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm1Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(114)));
+    gdjs.SellViewCode.GDm1Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(99)));
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xbecf80(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0xc29148(runtimeScene);} //End of subevents
 }
 
 }
@@ -1107,7 +1107,7 @@ gdjs.SellViewCode.eventsList0xbecf80(runtimeScene);} //End of subevents
 
 gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(87)) == 1;
+gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 1;
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDa1Objects1.createFrom(runtimeScene.getObjects("a1"));
 gdjs.SellViewCode.GDa2Objects1.createFrom(runtimeScene.getObjects("a2"));
@@ -1164,22 +1164,22 @@ gdjs.SellViewCode.GDst3Objects1.createFrom(runtimeScene.getObjects("st3"));
     gdjs.SellViewCode.GDc3Objects1[i].setOpacity(0);
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst1Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst1Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(101)));
+    gdjs.SellViewCode.GDst1Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(86)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst2Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst2Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(100)));
+    gdjs.SellViewCode.GDst2Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(85)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst3Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst3Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(99)));
+    gdjs.SellViewCode.GDst3Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(84)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm2Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm2Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(118)));
+    gdjs.SellViewCode.GDm2Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(103)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm1Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm1Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(117)));
+    gdjs.SellViewCode.GDm1Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(102)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm3Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm3Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(119)));
+    gdjs.SellViewCode.GDm3Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(104)));
 }
 }}
 
@@ -1191,7 +1191,7 @@ gdjs.SellViewCode.GDst3Objects1.createFrom(runtimeScene.getObjects("st3"));
 
 gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(89)) == 1;
+gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74)) == 1;
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDa1Objects1.createFrom(runtimeScene.getObjects("a1"));
 gdjs.SellViewCode.GDa2Objects1.createFrom(runtimeScene.getObjects("a2"));
@@ -1248,22 +1248,22 @@ gdjs.SellViewCode.GDst3Objects1.createFrom(runtimeScene.getObjects("st3"));
     gdjs.SellViewCode.GDc3Objects1[i].setOpacity(0);
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst1Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst1Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(113)));
+    gdjs.SellViewCode.GDst1Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(98)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst2Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst2Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(112)));
+    gdjs.SellViewCode.GDst2Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(97)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst3Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst3Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(111)));
+    gdjs.SellViewCode.GDst3Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(96)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm2Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm2Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(124)));
+    gdjs.SellViewCode.GDm2Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(109)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm1Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm1Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(123)));
+    gdjs.SellViewCode.GDm1Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(108)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm3Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm3Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(125)));
+    gdjs.SellViewCode.GDm3Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(110)));
 }
 }}
 
@@ -1275,7 +1275,7 @@ gdjs.SellViewCode.GDst3Objects1.createFrom(runtimeScene.getObjects("st3"));
 
 gdjs.SellViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(88)) == 1;
+gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 1;
 }if (gdjs.SellViewCode.condition0IsTrue_0.val) {
 gdjs.SellViewCode.GDa1Objects1.createFrom(runtimeScene.getObjects("a1"));
 gdjs.SellViewCode.GDa2Objects1.createFrom(runtimeScene.getObjects("a2"));
@@ -1332,22 +1332,22 @@ gdjs.SellViewCode.GDst3Objects1.createFrom(runtimeScene.getObjects("st3"));
     gdjs.SellViewCode.GDc3Objects1[i].setOpacity(50);
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst1Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst1Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(107)));
+    gdjs.SellViewCode.GDst1Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(92)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst2Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst2Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(106)));
+    gdjs.SellViewCode.GDst2Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(91)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDst3Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDst3Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(105)));
+    gdjs.SellViewCode.GDst3Objects1[i].setString("Satisfaction -"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(90)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm2Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm2Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(121)));
+    gdjs.SellViewCode.GDm2Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(106)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm1Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm1Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(120)));
+    gdjs.SellViewCode.GDm1Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(105)));
 }
 }{for(var i = 0, len = gdjs.SellViewCode.GDm3Objects1.length ;i < len;++i) {
-    gdjs.SellViewCode.GDm3Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(122)));
+    gdjs.SellViewCode.GDm3Objects1[i].setString("Money +"+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(107)));
 }
 }}
 
@@ -1370,10 +1370,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(53)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(38)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(86)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1408,10 +1408,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(54)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(39)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(86)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1446,10 +1446,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(59)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(44)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(88)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1484,10 +1484,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(60)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(45)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(88)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1522,10 +1522,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(61)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(46)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(88)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1560,10 +1560,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(56)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(87)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1598,10 +1598,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(57)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(87)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1636,10 +1636,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(58)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(87)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1674,10 +1674,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(65)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(50)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(89)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1712,10 +1712,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(66)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(51)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(89)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1750,10 +1750,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(67)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(52)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(89)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1788,10 +1788,10 @@ gdjs.SellViewCode.condition0IsTrue_0.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = false;
 gdjs.SellViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(55)) == 1;
+gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(40)) == 1;
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(86)) == 1;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 1;
 }}
 gdjs.SellViewCode.conditionTrue_1.val = true && gdjs.SellViewCode.condition0IsTrue_1.val && gdjs.SellViewCode.condition1IsTrue_1.val;
 }
@@ -1904,7 +1904,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xbfbc30(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0xbff510(runtimeScene);} //End of subevents
 }
 
 }
@@ -1924,7 +1924,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xc07b78(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0xba97f0(runtimeScene);} //End of subevents
 }
 
 }
@@ -1944,7 +1944,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xc362b0(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0x6618a0(runtimeScene);} //End of subevents
 }
 
 }
@@ -1966,16 +1966,16 @@ gdjs.SellViewCode.condition4IsTrue_1.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.input.cursorOnObject(gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs1Objects1Objects, runtimeScene, true, true);
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 0;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(56)) == 0;
 }if ( gdjs.SellViewCode.condition1IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition2IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(65)) == 0;
+gdjs.SellViewCode.condition2IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(50)) == 0;
 }if ( gdjs.SellViewCode.condition2IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(59)) == 0;
+gdjs.SellViewCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(44)) == 0;
 }if ( gdjs.SellViewCode.condition3IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition4IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(53)) == 0;
+gdjs.SellViewCode.condition4IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(38)) == 0;
 }}
 }
 }
@@ -2008,16 +2008,16 @@ gdjs.SellViewCode.condition4IsTrue_1.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.input.cursorOnObject(gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs2Objects1Objects, runtimeScene, true, true);
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 0;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(57)) == 0;
 }if ( gdjs.SellViewCode.condition1IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition2IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(66)) == 0;
+gdjs.SellViewCode.condition2IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(51)) == 0;
 }if ( gdjs.SellViewCode.condition2IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(60)) == 0;
+gdjs.SellViewCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(45)) == 0;
 }if ( gdjs.SellViewCode.condition3IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition4IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(54)) == 0;
+gdjs.SellViewCode.condition4IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(39)) == 0;
 }}
 }
 }
@@ -2050,16 +2050,16 @@ gdjs.SellViewCode.condition4IsTrue_1.val = false;
 gdjs.SellViewCode.condition0IsTrue_1.val = gdjs.evtTools.input.cursorOnObject(gdjs.SellViewCode.mapOfGDgdjs_46SellViewCode_46GDs3Objects1Objects, runtimeScene, true, true);
 }if ( gdjs.SellViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 0;
+gdjs.SellViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(58)) == 0;
 }if ( gdjs.SellViewCode.condition1IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition2IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(67)) == 0;
+gdjs.SellViewCode.condition2IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(52)) == 0;
 }if ( gdjs.SellViewCode.condition2IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(61)) == 0;
+gdjs.SellViewCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(46)) == 0;
 }if ( gdjs.SellViewCode.condition3IsTrue_1.val ) {
 {
-gdjs.SellViewCode.condition4IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(55)) == 0;
+gdjs.SellViewCode.condition4IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(40)) == 0;
 }}
 }
 }
@@ -2090,7 +2090,7 @@ gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.SellViewCode.eventsList0xc2e0b8(runtimeScene);} //End of subevents
+gdjs.SellViewCode.eventsList0xcf13f8(runtimeScene);} //End of subevents
 }
 
 }
@@ -2150,21 +2150,21 @@ gdjs.SellViewCode.condition1IsTrue_0.val = false;
 gdjs.SellViewCode.condition2IsTrue_0.val = false;
 gdjs.SellViewCode.condition3IsTrue_0.val = false;
 {
-gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(86)) == 0;
+gdjs.SellViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)) == 0;
 }if ( gdjs.SellViewCode.condition0IsTrue_0.val ) {
 {
-gdjs.SellViewCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(87)) == 0;
+gdjs.SellViewCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)) == 0;
 }if ( gdjs.SellViewCode.condition1IsTrue_0.val ) {
 {
-gdjs.SellViewCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(89)) == 0;
+gdjs.SellViewCode.condition2IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74)) == 0;
 }if ( gdjs.SellViewCode.condition2IsTrue_0.val ) {
 {
-gdjs.SellViewCode.condition3IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(88)) == 0;
+gdjs.SellViewCode.condition3IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)) == 0;
 }}
 }
 }
 if (gdjs.SellViewCode.condition3IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(86).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(71).setNumber(1);
 }}
 
 }

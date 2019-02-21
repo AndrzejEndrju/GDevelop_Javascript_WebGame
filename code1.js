@@ -224,7 +224,7 @@ gdjs.DecisionViewCode.condition3IsTrue_1 = {val:false};
 gdjs.DecisionViewCode.condition4IsTrue_1 = {val:false};
 
 
-gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDopenITObjects1Objects = Hashtable.newFrom({"openIT": gdjs.DecisionViewCode.GDopenITObjects1});gdjs.DecisionViewCode.eventsList0x84c918 = function(runtimeScene) {
+gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDopenITObjects1Objects = Hashtable.newFrom({"openIT": gdjs.DecisionViewCode.GDopenITObjects1});gdjs.DecisionViewCode.eventsList0x697c58 = function(runtimeScene) {
 
 {
 
@@ -239,8 +239,8 @@ gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x84c918
-gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDstatsbtnObjects1Objects = Hashtable.newFrom({"statsbtn": gdjs.DecisionViewCode.GDstatsbtnObjects1});gdjs.DecisionViewCode.eventsList0x853aa0 = function(runtimeScene) {
+}; //End of gdjs.DecisionViewCode.eventsList0x697c58
+gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDstatsbtnObjects1Objects = Hashtable.newFrom({"statsbtn": gdjs.DecisionViewCode.GDstatsbtnObjects1});gdjs.DecisionViewCode.eventsList0xafa350 = function(runtimeScene) {
 
 {
 
@@ -255,8 +255,8 @@ gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x853aa0
-gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDstatsbtnObjects1Objects = Hashtable.newFrom({"statsbtn": gdjs.DecisionViewCode.GDstatsbtnObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDopenITObjects1Objects = Hashtable.newFrom({"openIT": gdjs.DecisionViewCode.GDopenITObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDRulesButtonObjects1Objects = Hashtable.newFrom({"RulesButton": gdjs.DecisionViewCode.GDRulesButtonObjects1});gdjs.DecisionViewCode.eventsList0x854e18 = function(runtimeScene) {
+}; //End of gdjs.DecisionViewCode.eventsList0xafa350
+gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDstatsbtnObjects1Objects = Hashtable.newFrom({"statsbtn": gdjs.DecisionViewCode.GDstatsbtnObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDopenITObjects1Objects = Hashtable.newFrom({"openIT": gdjs.DecisionViewCode.GDopenITObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDRulesButtonObjects1Objects = Hashtable.newFrom({"RulesButton": gdjs.DecisionViewCode.GDRulesButtonObjects1});gdjs.DecisionViewCode.eventsList0xbf4c88 = function(runtimeScene) {
 
 {
 
@@ -536,8 +536,8 @@ gdjs.DecisionViewCode.GDyearObjects1.createFrom(runtimeScene.getObjects("year"))
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x854e18
-gdjs.DecisionViewCode.eventsList0x854ad8 = function(runtimeScene) {
+}; //End of gdjs.DecisionViewCode.eventsList0xbf4c88
+gdjs.DecisionViewCode.eventsList0xc294e8 = function(runtimeScene) {
 
 {
 
@@ -548,14 +548,14 @@ gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x854e18(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0xbf4c88(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x854ad8
-gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDCloseModalButtonObjects1Objects = Hashtable.newFrom({"CloseModalButton": gdjs.DecisionViewCode.GDCloseModalButtonObjects1});gdjs.DecisionViewCode.eventsList0x857ff8 = function(runtimeScene) {
+}; //End of gdjs.DecisionViewCode.eventsList0xc294e8
+gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDCloseModalButtonObjects1Objects = Hashtable.newFrom({"CloseModalButton": gdjs.DecisionViewCode.GDCloseModalButtonObjects1});gdjs.DecisionViewCode.eventsList0xc11518 = function(runtimeScene) {
 
 {
 
@@ -817,15 +817,15 @@ gdjs.DecisionViewCode.GDyearObjects1.createFrom(runtimeScene.getObjects("year"))
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x857ff8
-gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDRulesButtonObjects1Objects = Hashtable.newFrom({"RulesButton": gdjs.DecisionViewCode.GDRulesButtonObjects1});gdjs.DecisionViewCode.eventsList0x85ba10 = function(runtimeScene) {
+}; //End of gdjs.DecisionViewCode.eventsList0xc11518
+gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDRulesButtonObjects1Objects = Hashtable.newFrom({"RulesButton": gdjs.DecisionViewCode.GDRulesButtonObjects1});gdjs.DecisionViewCode.eventsList0x697168 = function(runtimeScene) {
 
 {
 
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 1;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 1;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects2.length ;i < len;++i) {
@@ -841,7 +841,7 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 2;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 2;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects2.length ;i < len;++i) {
@@ -857,7 +857,7 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 3;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 3;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects2.length ;i < len;++i) {
@@ -873,7 +873,7 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 4;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 4;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects2.length ;i < len;++i) {
@@ -889,7 +889,7 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 5;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 5;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects2.length ;i < len;++i) {
@@ -905,7 +905,7 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 6;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 6;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects2.length ;i < len;++i) {
@@ -921,7 +921,7 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 7;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 7;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects2.length ;i < len;++i) {
@@ -937,7 +937,7 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 8
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 8
 ;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
@@ -954,7 +954,7 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 9;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 9;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects2.length ;i < len;++i) {
@@ -970,7 +970,7 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 10;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 10;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects2.length ;i < len;++i) {
@@ -986,7 +986,7 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 11;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 11;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects2.length ;i < len;++i) {
@@ -1002,7 +1002,7 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 12;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 12;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("ActualTime"));
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects2.length ;i < len;++i) {
@@ -1018,15 +1018,15 @@ gdjs.DecisionViewCode.GDActualTimeObjects2.createFrom(runtimeScene.getObjects("A
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 13;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 13;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDActualTimeObjects1.createFrom(runtimeScene.getObjects("ActualTime"));
 /* Reuse gdjs.DecisionViewCode.GDLifeMarkObjects1 */
 {for(var i = 0, len = gdjs.DecisionViewCode.GDActualTimeObjects1.length ;i < len;++i) {
     gdjs.DecisionViewCode.GDActualTimeObjects1[i].setString("January");
 }
-}{runtimeScene.getGame().getVariables().getFromIndex(33).setNumber(1);
-}{runtimeScene.getGame().getVariables().getFromIndex(34).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(34)) + 1);
+}{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(19)) + 1);
 }{for(var i = 0, len = gdjs.DecisionViewCode.GDLifeMarkObjects1.length ;i < len;++i) {
     gdjs.DecisionViewCode.GDLifeMarkObjects1[i].setX(gdjs.DecisionViewCode.GDLifeMarkObjects1[i].getX() + (1));
 }
@@ -1035,8 +1035,8 @@ gdjs.DecisionViewCode.GDActualTimeObjects1.createFrom(runtimeScene.getObjects("A
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x85ba10
-gdjs.DecisionViewCode.eventsList0x85b390 = function(runtimeScene) {
+}; //End of gdjs.DecisionViewCode.eventsList0x697168
+gdjs.DecisionViewCode.eventsList0xc032d8 = function(runtimeScene) {
 
 {
 
@@ -1096,7 +1096,7 @@ gdjs.DecisionViewCode.GDyearObjects1.createFrom(runtimeScene.getObjects("year"))
     gdjs.DecisionViewCode.GDTotalDebtValueObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(9)));
 }
 }{for(var i = 0, len = gdjs.DecisionViewCode.GDyearObjects1.length ;i < len;++i) {
-    gdjs.DecisionViewCode.GDyearObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(34)));
+    gdjs.DecisionViewCode.GDyearObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(19)));
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(13)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(14)));
 }{for(var i = 0, len = gdjs.DecisionViewCode.GDSatisfactionBarObjects1.length ;i < len;++i) {
@@ -1104,14 +1104,14 @@ gdjs.DecisionViewCode.GDyearObjects1.createFrom(runtimeScene.getObjects("year"))
 }
 }
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x85ba10(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0x697168(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x85b390
-gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDsbtnObjects1Objects = Hashtable.newFrom({"sbtn": gdjs.DecisionViewCode.GDsbtnObjects1});gdjs.DecisionViewCode.eventsList0x85ed60 = function(runtimeScene) {
+}; //End of gdjs.DecisionViewCode.eventsList0xc032d8
+gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDsbtnObjects1Objects = Hashtable.newFrom({"sbtn": gdjs.DecisionViewCode.GDsbtnObjects1});gdjs.DecisionViewCode.eventsList0xc30170 = function(runtimeScene) {
 
 {
 
@@ -1126,8 +1126,8 @@ gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x85ed60
-gdjs.DecisionViewCode.eventsList0x85e918 = function(runtimeScene) {
+}; //End of gdjs.DecisionViewCode.eventsList0xc30170
+gdjs.DecisionViewCode.eventsList0xc20018 = function(runtimeScene) {
 
 {
 
@@ -1135,14 +1135,14 @@ gdjs.DecisionViewCode.eventsList0x85e918 = function(runtimeScene) {
 {
 
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x85ed60(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0xc30170(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x85e918
-gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDbbtnObjects1Objects = Hashtable.newFrom({"bbtn": gdjs.DecisionViewCode.GDbbtnObjects1});gdjs.DecisionViewCode.eventsList0x85f4b8 = function(runtimeScene) {
+}; //End of gdjs.DecisionViewCode.eventsList0xc20018
+gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDbbtnObjects1Objects = Hashtable.newFrom({"bbtn": gdjs.DecisionViewCode.GDbbtnObjects1});gdjs.DecisionViewCode.eventsList0x89b808 = function(runtimeScene) {
 
 {
 
@@ -1157,8 +1157,8 @@ gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x85f4b8
-gdjs.DecisionViewCode.eventsList0x85f028 = function(runtimeScene) {
+}; //End of gdjs.DecisionViewCode.eventsList0x89b808
+gdjs.DecisionViewCode.eventsList0xba9270 = function(runtimeScene) {
 
 {
 
@@ -1166,14 +1166,14 @@ gdjs.DecisionViewCode.eventsList0x85f028 = function(runtimeScene) {
 {
 
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x85f4b8(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0x89b808(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x85f028
-gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDBuyTextObjects1Objects = Hashtable.newFrom({"BuyText": gdjs.DecisionViewCode.GDBuyTextObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDbbtnObjects1Objects = Hashtable.newFrom({"bbtn": gdjs.DecisionViewCode.GDbbtnObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDSellTextObjects1Objects = Hashtable.newFrom({"SellText": gdjs.DecisionViewCode.GDSellTextObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDsbtnObjects1Objects = Hashtable.newFrom({"sbtn": gdjs.DecisionViewCode.GDsbtnObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDSaveMoneyTextObjects1Objects = Hashtable.newFrom({"SaveMoneyText": gdjs.DecisionViewCode.GDSaveMoneyTextObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDSaveMoneyTextObjects1Objects = Hashtable.newFrom({"SaveMoneyText": gdjs.DecisionViewCode.GDSaveMoneyTextObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.DecisionViewCode.GDcloseObjects1});gdjs.DecisionViewCode.eventsList0x861610 = function(runtimeScene) {
+}; //End of gdjs.DecisionViewCode.eventsList0xba9270
+gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDBuyTextObjects1Objects = Hashtable.newFrom({"BuyText": gdjs.DecisionViewCode.GDBuyTextObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDbbtnObjects1Objects = Hashtable.newFrom({"bbtn": gdjs.DecisionViewCode.GDbbtnObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDSellTextObjects1Objects = Hashtable.newFrom({"SellText": gdjs.DecisionViewCode.GDSellTextObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDsbtnObjects1Objects = Hashtable.newFrom({"sbtn": gdjs.DecisionViewCode.GDsbtnObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDSaveMoneyTextObjects1Objects = Hashtable.newFrom({"SaveMoneyText": gdjs.DecisionViewCode.GDSaveMoneyTextObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDSaveMoneyTextObjects1Objects = Hashtable.newFrom({"SaveMoneyText": gdjs.DecisionViewCode.GDSaveMoneyTextObjects1});gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.DecisionViewCode.GDcloseObjects1});gdjs.DecisionViewCode.eventsList0x661c60 = function(runtimeScene) {
 
 {
 
@@ -1182,13 +1182,13 @@ gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
 gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.window.openURL("www.kredytofer.pl/", runtimeScene);
+{gdjs.evtTools.window.openURL("https://kredytofer.pl/", runtimeScene);
 }}
 
 }
 
 
-}; //End of gdjs.DecisionViewCode.eventsList0x861610
+}; //End of gdjs.DecisionViewCode.eventsList0x661c60
 gdjs.DecisionViewCode.mapOfGDgdjs_46DecisionViewCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.DecisionViewCode.GDcloseObjects1});gdjs.DecisionViewCode.eventsList0xb0b28 = function(runtimeScene) {
 
 {
@@ -1227,7 +1227,7 @@ gdjs.DecisionViewCode.conditionTrue_1.val = true && gdjs.DecisionViewCode.condit
 }
 }
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x84c918(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0x697c58(runtimeScene);} //End of subevents
 }
 
 }
@@ -1238,10 +1238,21 @@ gdjs.DecisionViewCode.eventsList0x84c918(runtimeScene);} //End of subevents
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(130)) == 1;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(115)) == 1;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(9).add(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(131)));
-}{runtimeScene.getGame().getVariables().getFromIndex(14).add(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(131))/24);
+}
+
+}
+
+
+{
+
+
+gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
+{
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(116)) == 0;
+}if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(115).setNumber(0);
 }}
 
 }
@@ -1252,20 +1263,7 @@ gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(131)) == 0;
-}if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(130).setNumber(0);
-}}
-
-}
-
-
-{
-
-
-gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
-{
-gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(42)) == 0;
+gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(27)) == 0;
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDstatsObjects1.createFrom(runtimeScene.getObjects("stats"));
 gdjs.DecisionViewCode.GDstatsbtnObjects1.createFrom(runtimeScene.getObjects("statsbtn"));
@@ -1308,7 +1306,7 @@ for(var i = 0, k = 0, l = gdjs.DecisionViewCode.GDHow2PlayModalObjects1.length;i
 }
 gdjs.DecisionViewCode.GDHow2PlayModalObjects1.length = k;}if ( gdjs.DecisionViewCode.condition2IsTrue_1.val ) {
 {
-gdjs.DecisionViewCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(42)) == 1;
+gdjs.DecisionViewCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(27)) == 1;
 }}
 }
 }
@@ -1325,7 +1323,7 @@ gdjs.DecisionViewCode.GDstatsObjects1.createFrom(runtimeScene.getObjects("stats"
 }
 }
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x853aa0(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0xafa350(runtimeScene);} //End of subevents
 }
 
 }
@@ -1359,7 +1357,7 @@ for(var i = 0, k = 0, l = gdjs.DecisionViewCode.GDHow2PlayModalObjects1.length;i
 }
 gdjs.DecisionViewCode.GDHow2PlayModalObjects1.length = k;}if ( gdjs.DecisionViewCode.condition2IsTrue_1.val ) {
 {
-gdjs.DecisionViewCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(42)) == 1;
+gdjs.DecisionViewCode.condition3IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(27)) == 1;
 }}
 }
 }
@@ -1442,7 +1440,7 @@ gdjs.DecisionViewCode.conditionTrue_1.val = true && gdjs.DecisionViewCode.condit
 }
 }
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x854ad8(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0xc294e8(runtimeScene);} //End of subevents
 }
 
 }
@@ -1454,7 +1452,7 @@ gdjs.DecisionViewCode.eventsList0x854ad8(runtimeScene);} //End of subevents
 gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 {
 {gdjs.DecisionViewCode.conditionTrue_1 = gdjs.DecisionViewCode.condition0IsTrue_0;
-gdjs.DecisionViewCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8748244);
+gdjs.DecisionViewCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12690628);
 }
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 gdjs.DecisionViewCode.GDCloseModalButtonObjects1.createFrom(runtimeScene.getObjects("CloseModalButton"));
@@ -1484,7 +1482,7 @@ gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObjec
 }if (gdjs.DecisionViewCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x857ff8(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0xc11518(runtimeScene);} //End of subevents
 }
 
 }
@@ -1551,11 +1549,11 @@ gdjs.DecisionViewCode.GDLifeMarkObjects1.createFrom(runtimeScene.getObjects("Lif
     gdjs.DecisionViewCode.GDJobValueObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(7)));
 }
 }{for(var i = 0, len = gdjs.DecisionViewCode.GDLifeMarkObjects1.length ;i < len;++i) {
-    gdjs.DecisionViewCode.GDLifeMarkObjects1[i].setX(gdjs.DecisionViewCode.GDLifeMarkObjects1[i].getX() + ((gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(34)) - 2018) * 6.5));
+    gdjs.DecisionViewCode.GDLifeMarkObjects1[i].setX(gdjs.DecisionViewCode.GDLifeMarkObjects1[i].getX() + ((gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(19)) - 2018) * 6.5));
 }
 }
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x85b390(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0xc032d8(runtimeScene);} //End of subevents
 }
 
 }
@@ -1601,7 +1599,7 @@ gdjs.DecisionViewCode.GDSellTextObjects1.createFrom(runtimeScene.getObjects("Sel
 }
 }
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x85e918(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0xc20018(runtimeScene);} //End of subevents
 }
 
 }
@@ -1647,7 +1645,7 @@ gdjs.DecisionViewCode.GDBuyTextObjects1.createFrom(runtimeScene.getObjects("BuyT
 }
 }
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x85f028(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0xba9270(runtimeScene);} //End of subevents
 }
 
 }
@@ -1827,10 +1825,10 @@ gdjs.DecisionViewCode.condition0IsTrue_0.val = false;
 gdjs.DecisionViewCode.condition0IsTrue_1.val = false;
 gdjs.DecisionViewCode.condition1IsTrue_1.val = false;
 {
-gdjs.DecisionViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(34)) == 2080;
+gdjs.DecisionViewCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(19)) == 2080;
 }if ( gdjs.DecisionViewCode.condition0IsTrue_1.val ) {
 {
-gdjs.DecisionViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(33)) == 8;
+gdjs.DecisionViewCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(18)) == 8;
 }}
 gdjs.DecisionViewCode.conditionTrue_1.val = true && gdjs.DecisionViewCode.condition0IsTrue_1.val && gdjs.DecisionViewCode.condition1IsTrue_1.val;
 }
@@ -1918,7 +1916,7 @@ gdjs.DecisionViewCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObjec
 }
 }
 { //Subevents
-gdjs.DecisionViewCode.eventsList0x861610(runtimeScene);} //End of subevents
+gdjs.DecisionViewCode.eventsList0x661c60(runtimeScene);} //End of subevents
 }
 
 }

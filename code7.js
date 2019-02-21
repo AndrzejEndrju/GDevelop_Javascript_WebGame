@@ -38,7 +38,7 @@ gdjs.DangerSceneCode.condition1IsTrue_1 = {val:false};
 gdjs.DangerSceneCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.DangerSceneCode.mapOfGDgdjs_46DangerSceneCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.DangerSceneCode.GDButtonObjects1});gdjs.DangerSceneCode.eventsList0xca9a38 = function(runtimeScene) {
+gdjs.DangerSceneCode.mapOfGDgdjs_46DangerSceneCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.DangerSceneCode.GDButtonObjects1});gdjs.DangerSceneCode.eventsList0xbf3d80 = function(runtimeScene) {
 
 {
 
@@ -52,13 +52,14 @@ gdjs.DangerSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonP
 }{runtimeScene.getGame().getVariables().getFromIndex(9).add(5000);
 }{runtimeScene.getGame().getVariables().getFromIndex(14).add(5000);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "DecisionView", false);
+}{runtimeScene.getGame().getVariables().getFromIndex(117).setNumber(1);
 }}
 
 }
 
 
-}; //End of gdjs.DangerSceneCode.eventsList0xca9a38
-gdjs.DangerSceneCode.mapOfGDgdjs_46DangerSceneCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.DangerSceneCode.GDButtonObjects1});gdjs.DangerSceneCode.mapOfGDgdjs_46DangerSceneCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.DangerSceneCode.GDcloseObjects1});gdjs.DangerSceneCode.eventsList0xc5ca78 = function(runtimeScene) {
+}; //End of gdjs.DangerSceneCode.eventsList0xbf3d80
+gdjs.DangerSceneCode.mapOfGDgdjs_46DangerSceneCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.DangerSceneCode.GDButtonObjects1});gdjs.DangerSceneCode.mapOfGDgdjs_46DangerSceneCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.DangerSceneCode.GDcloseObjects1});gdjs.DangerSceneCode.eventsList0xc365f8 = function(runtimeScene) {
 
 {
 
@@ -67,13 +68,13 @@ gdjs.DangerSceneCode.condition0IsTrue_0.val = false;
 {
 gdjs.DangerSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.DangerSceneCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.window.openURL("www.kredytofer.pl/", runtimeScene);
+{gdjs.evtTools.window.openURL("https://kredytofer.pl/", runtimeScene);
 }}
 
 }
 
 
-}; //End of gdjs.DangerSceneCode.eventsList0xc5ca78
+}; //End of gdjs.DangerSceneCode.eventsList0xc365f8
 gdjs.DangerSceneCode.mapOfGDgdjs_46DangerSceneCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.DangerSceneCode.GDcloseObjects1});gdjs.DangerSceneCode.eventsList0xb0b28 = function(runtimeScene) {
 
 {
@@ -89,7 +90,7 @@ gdjs.DangerSceneCode.condition1IsTrue_1.val = false;
 gdjs.DangerSceneCode.condition0IsTrue_1.val = gdjs.evtTools.input.cursorOnObject(gdjs.DangerSceneCode.mapOfGDgdjs_46DangerSceneCode_46GDButtonObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.DangerSceneCode.condition0IsTrue_1.val ) {
 {
-gdjs.DangerSceneCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(41)) == 0;
+gdjs.DangerSceneCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(26)) == 0;
 }}
 gdjs.DangerSceneCode.conditionTrue_1.val = true && gdjs.DangerSceneCode.condition0IsTrue_1.val && gdjs.DangerSceneCode.condition1IsTrue_1.val;
 }
@@ -104,7 +105,7 @@ gdjs.DangerSceneCode.GDOkObjects1.createFrom(runtimeScene.getObjects("Ok"));
 }
 }
 { //Subevents
-gdjs.DangerSceneCode.eventsList0xca9a38(runtimeScene);} //End of subevents
+gdjs.DangerSceneCode.eventsList0xbf3d80(runtimeScene);} //End of subevents
 }
 
 }
@@ -145,7 +146,7 @@ gdjs.DangerSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject
 }
 }
 { //Subevents
-gdjs.DangerSceneCode.eventsList0xc5ca78(runtimeScene);} //End of subevents
+gdjs.DangerSceneCode.eventsList0xc365f8(runtimeScene);} //End of subevents
 }
 
 }

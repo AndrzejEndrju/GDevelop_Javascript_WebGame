@@ -94,7 +94,7 @@ gdjs.BuyHouseCode.condition1IsTrue_1 = {val:false};
 gdjs.BuyHouseCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuyHouseCode.GDButtonObjects1});gdjs.BuyHouseCode.eventsList0xcc5978 = function(runtimeScene) {
+gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuyHouseCode.GDButtonObjects1});gdjs.BuyHouseCode.eventsList0x6979b0 = function(runtimeScene) {
 
 {
 
@@ -109,8 +109,8 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }
 
 
-}; //End of gdjs.BuyHouseCode.eventsList0xcc5978
-gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuyHouseCode.GDButtonObjects1});gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.BuyHouseCode.GDcloseObjects1});gdjs.BuyHouseCode.eventsList0xc7dbe0 = function(runtimeScene) {
+}; //End of gdjs.BuyHouseCode.eventsList0x6979b0
+gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuyHouseCode.GDButtonObjects1});gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.BuyHouseCode.GDcloseObjects1});gdjs.BuyHouseCode.eventsList0xbfeac0 = function(runtimeScene) {
 
 {
 
@@ -119,14 +119,14 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = false;
 {
 gdjs.BuyHouseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.BuyHouseCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.window.openURL("www.kredytofer.pl/", runtimeScene);
+{gdjs.evtTools.window.openURL("https://kredytofer.pl/", runtimeScene);
 }}
 
 }
 
 
-}; //End of gdjs.BuyHouseCode.eventsList0xc7dbe0
-gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.BuyHouseCode.GDcloseObjects1});gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDhome1bObjects1Objects = Hashtable.newFrom({"home1b": gdjs.BuyHouseCode.GDhome1bObjects1});gdjs.BuyHouseCode.eventsList0x899c40 = function(runtimeScene) {
+}; //End of gdjs.BuyHouseCode.eventsList0xbfeac0
+gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.BuyHouseCode.GDcloseObjects1});gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDhome1bObjects1Objects = Hashtable.newFrom({"home1b": gdjs.BuyHouseCode.GDhome1bObjects1});gdjs.BuyHouseCode.eventsList0xbf4d00 = function(runtimeScene) {
 
 {
 
@@ -167,8 +167,8 @@ gdjs.BuyHouseCode.GDSatisfactionTextObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.BuyHouseCode.eventsList0x899c40
-gdjs.BuyHouseCode.eventsList0xbf4790 = function(runtimeScene) {
+}; //End of gdjs.BuyHouseCode.eventsList0xbf4d00
+gdjs.BuyHouseCode.eventsList0xbf4b28 = function(runtimeScene) {
 
 {
 
@@ -179,9 +179,9 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.BuyHouseCode.condition0IsTrue_0.val) {
 gdjs.BuyHouseCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyText"));
 /* Reuse gdjs.BuyHouseCode.GDhome1bObjects1 */
-{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(50)));
+{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(35)));
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11)) + 130);
-}{runtimeScene.getGame().getVariables().getFromIndex(53).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(38).setNumber(1);
 }{for(var i = 0, len = gdjs.BuyHouseCode.GDhome1bObjects1.length ;i < len;++i) {
     gdjs.BuyHouseCode.GDhome1bObjects1[i].setOpacity(50);
 }
@@ -190,14 +190,14 @@ gdjs.BuyHouseCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyT
 }
 }
 { //Subevents
-gdjs.BuyHouseCode.eventsList0x899c40(runtimeScene);} //End of subevents
+gdjs.BuyHouseCode.eventsList0xbf4d00(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyHouseCode.eventsList0xbf4790
-gdjs.BuyHouseCode.eventsList0xbee460 = function(runtimeScene) {
+}; //End of gdjs.BuyHouseCode.eventsList0xbf4b28
+gdjs.BuyHouseCode.eventsList0x65cdf0 = function(runtimeScene) {
 
 {
 
@@ -213,14 +213,14 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.BuyHouseCode.eventsList0xbf4790(runtimeScene);} //End of subevents
+gdjs.BuyHouseCode.eventsList0xbf4b28(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyHouseCode.eventsList0xbee460
-gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDhome2bObjects1Objects = Hashtable.newFrom({"home2b": gdjs.BuyHouseCode.GDhome2bObjects1});gdjs.BuyHouseCode.eventsList0xbeac98 = function(runtimeScene) {
+}; //End of gdjs.BuyHouseCode.eventsList0x65cdf0
+gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDhome2bObjects1Objects = Hashtable.newFrom({"home2b": gdjs.BuyHouseCode.GDhome2bObjects1});gdjs.BuyHouseCode.eventsList0xbf5d78 = function(runtimeScene) {
 
 {
 
@@ -261,8 +261,8 @@ gdjs.BuyHouseCode.GDSatisfactionTextObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.BuyHouseCode.eventsList0xbeac98
-gdjs.BuyHouseCode.eventsList0xbea1b8 = function(runtimeScene) {
+}; //End of gdjs.BuyHouseCode.eventsList0xbf5d78
+gdjs.BuyHouseCode.eventsList0xbf5b58 = function(runtimeScene) {
 
 {
 
@@ -273,9 +273,9 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.BuyHouseCode.condition0IsTrue_0.val) {
 gdjs.BuyHouseCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyText"));
 /* Reuse gdjs.BuyHouseCode.GDhome2bObjects1 */
-{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(51)));
+{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(36)));
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11)) + 130);
-}{runtimeScene.getGame().getVariables().getFromIndex(54).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(39).setNumber(1);
 }{for(var i = 0, len = gdjs.BuyHouseCode.GDhome2bObjects1.length ;i < len;++i) {
     gdjs.BuyHouseCode.GDhome2bObjects1[i].setOpacity(50);
 }
@@ -284,14 +284,14 @@ gdjs.BuyHouseCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyT
 }
 }
 { //Subevents
-gdjs.BuyHouseCode.eventsList0xbeac98(runtimeScene);} //End of subevents
+gdjs.BuyHouseCode.eventsList0xbf5d78(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyHouseCode.eventsList0xbea1b8
-gdjs.BuyHouseCode.eventsList0xbe63d8 = function(runtimeScene) {
+}; //End of gdjs.BuyHouseCode.eventsList0xbf5b58
+gdjs.BuyHouseCode.eventsList0xc291f8 = function(runtimeScene) {
 
 {
 
@@ -307,14 +307,14 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.BuyHouseCode.eventsList0xbea1b8(runtimeScene);} //End of subevents
+gdjs.BuyHouseCode.eventsList0xbf5b58(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyHouseCode.eventsList0xbe63d8
-gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDhome3bObjects1Objects = Hashtable.newFrom({"home3b": gdjs.BuyHouseCode.GDhome3bObjects1});gdjs.BuyHouseCode.eventsList0xc140f0 = function(runtimeScene) {
+}; //End of gdjs.BuyHouseCode.eventsList0xc291f8
+gdjs.BuyHouseCode.mapOfGDgdjs_46BuyHouseCode_46GDhome3bObjects1Objects = Hashtable.newFrom({"home3b": gdjs.BuyHouseCode.GDhome3bObjects1});gdjs.BuyHouseCode.eventsList0x89aff0 = function(runtimeScene) {
 
 {
 
@@ -355,8 +355,8 @@ gdjs.BuyHouseCode.GDSatisfactionTextObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.BuyHouseCode.eventsList0xc140f0
-gdjs.BuyHouseCode.eventsList0xc27d60 = function(runtimeScene) {
+}; //End of gdjs.BuyHouseCode.eventsList0x89aff0
+gdjs.BuyHouseCode.eventsList0x89ade8 = function(runtimeScene) {
 
 {
 
@@ -367,9 +367,9 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.BuyHouseCode.condition0IsTrue_0.val) {
 gdjs.BuyHouseCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyText"));
 /* Reuse gdjs.BuyHouseCode.GDhome3bObjects1 */
-{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(52)));
+{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(37)));
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11)) + 130);
-}{runtimeScene.getGame().getVariables().getFromIndex(55).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(40).setNumber(1);
 }{for(var i = 0, len = gdjs.BuyHouseCode.GDhome3bObjects1.length ;i < len;++i) {
     gdjs.BuyHouseCode.GDhome3bObjects1[i].setOpacity(50);
 }
@@ -378,14 +378,14 @@ gdjs.BuyHouseCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyT
 }
 }
 { //Subevents
-gdjs.BuyHouseCode.eventsList0xc140f0(runtimeScene);} //End of subevents
+gdjs.BuyHouseCode.eventsList0x89aff0(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyHouseCode.eventsList0xc27d60
-gdjs.BuyHouseCode.eventsList0xbe90b0 = function(runtimeScene) {
+}; //End of gdjs.BuyHouseCode.eventsList0x89ade8
+gdjs.BuyHouseCode.eventsList0xcf15b8 = function(runtimeScene) {
 
 {
 
@@ -401,13 +401,13 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.BuyHouseCode.eventsList0xc27d60(runtimeScene);} //End of subevents
+gdjs.BuyHouseCode.eventsList0x89ade8(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuyHouseCode.eventsList0xbe90b0
+}; //End of gdjs.BuyHouseCode.eventsList0xcf15b8
 gdjs.BuyHouseCode.eventsList0xb0b28 = function(runtimeScene) {
 
 {
@@ -424,7 +424,7 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.BuyHouseCode.eventsList0xcc5978(runtimeScene);} //End of subevents
+gdjs.BuyHouseCode.eventsList0x6979b0(runtimeScene);} //End of subevents
 }
 
 }
@@ -497,7 +497,7 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.BuyHouseCode.eventsList0xc7dbe0(runtimeScene);} //End of subevents
+gdjs.BuyHouseCode.eventsList0xbfeac0(runtimeScene);} //End of subevents
 }
 
 }
@@ -529,13 +529,13 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = false;
 gdjs.BuyHouseCode.condition0IsTrue_1.val = false;
 gdjs.BuyHouseCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyHouseCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(50)));
+gdjs.BuyHouseCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(35)));
 if( gdjs.BuyHouseCode.condition0IsTrue_1.val ) {
     gdjs.BuyHouseCode.conditionTrue_1.val = true;
 }
 }
 {
-gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(53)) == 1;
+gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(38)) == 1;
 if( gdjs.BuyHouseCode.condition1IsTrue_1.val ) {
     gdjs.BuyHouseCode.conditionTrue_1.val = true;
 }
@@ -616,13 +616,13 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = false;
 gdjs.BuyHouseCode.condition0IsTrue_1.val = false;
 gdjs.BuyHouseCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyHouseCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(51)));
+gdjs.BuyHouseCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(36)));
 if( gdjs.BuyHouseCode.condition0IsTrue_1.val ) {
     gdjs.BuyHouseCode.conditionTrue_1.val = true;
 }
 }
 {
-gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(54)) == 1;
+gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(39)) == 1;
 if( gdjs.BuyHouseCode.condition1IsTrue_1.val ) {
     gdjs.BuyHouseCode.conditionTrue_1.val = true;
 }
@@ -649,13 +649,13 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = false;
 gdjs.BuyHouseCode.condition0IsTrue_1.val = false;
 gdjs.BuyHouseCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyHouseCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(52)));
+gdjs.BuyHouseCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(37)));
 if( gdjs.BuyHouseCode.condition0IsTrue_1.val ) {
     gdjs.BuyHouseCode.conditionTrue_1.val = true;
 }
 }
 {
-gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(55)) == 1;
+gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(40)) == 1;
 if( gdjs.BuyHouseCode.condition1IsTrue_1.val ) {
     gdjs.BuyHouseCode.conditionTrue_1.val = true;
 }
@@ -682,17 +682,17 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = false;
 gdjs.BuyHouseCode.condition0IsTrue_1.val = false;
 gdjs.BuyHouseCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyHouseCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(53)) == 0;
+gdjs.BuyHouseCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(38)) == 0;
 }if ( gdjs.BuyHouseCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(50));
+gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(35));
 }}
 gdjs.BuyHouseCode.conditionTrue_1.val = true && gdjs.BuyHouseCode.condition0IsTrue_1.val && gdjs.BuyHouseCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuyHouseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.BuyHouseCode.eventsList0xbee460(runtimeScene);} //End of subevents
+gdjs.BuyHouseCode.eventsList0x65cdf0(runtimeScene);} //End of subevents
 }
 
 }
@@ -707,17 +707,17 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = false;
 gdjs.BuyHouseCode.condition0IsTrue_1.val = false;
 gdjs.BuyHouseCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyHouseCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(54)) == 0;
+gdjs.BuyHouseCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(39)) == 0;
 }if ( gdjs.BuyHouseCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(51));
+gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(36));
 }}
 gdjs.BuyHouseCode.conditionTrue_1.val = true && gdjs.BuyHouseCode.condition0IsTrue_1.val && gdjs.BuyHouseCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuyHouseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.BuyHouseCode.eventsList0xbe63d8(runtimeScene);} //End of subevents
+gdjs.BuyHouseCode.eventsList0xc291f8(runtimeScene);} //End of subevents
 }
 
 }
@@ -741,17 +741,17 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = false;
 gdjs.BuyHouseCode.condition0IsTrue_1.val = false;
 gdjs.BuyHouseCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuyHouseCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(55)) == 0;
+gdjs.BuyHouseCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(40)) == 0;
 }if ( gdjs.BuyHouseCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(52));
+gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(37));
 }}
 gdjs.BuyHouseCode.conditionTrue_1.val = true && gdjs.BuyHouseCode.condition0IsTrue_1.val && gdjs.BuyHouseCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuyHouseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.BuyHouseCode.eventsList0xbe90b0(runtimeScene);} //End of subevents
+gdjs.BuyHouseCode.eventsList0xcf15b8(runtimeScene);} //End of subevents
 }
 
 }
@@ -767,13 +767,13 @@ gdjs.BuyHouseCode.GDhome1cObjects1.createFrom(runtimeScene.getObjects("home1c"))
 gdjs.BuyHouseCode.GDhome2cObjects1.createFrom(runtimeScene.getObjects("home2c"));
 gdjs.BuyHouseCode.GDhome3cObjects1.createFrom(runtimeScene.getObjects("home3c"));
 {for(var i = 0, len = gdjs.BuyHouseCode.GDhome1cObjects1.length ;i < len;++i) {
-    gdjs.BuyHouseCode.GDhome1cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(50))+"zł");
+    gdjs.BuyHouseCode.GDhome1cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(35))+"zł");
 }
 }{for(var i = 0, len = gdjs.BuyHouseCode.GDhome2cObjects1.length ;i < len;++i) {
-    gdjs.BuyHouseCode.GDhome2cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(51))+"zł");
+    gdjs.BuyHouseCode.GDhome2cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(36))+"zł");
 }
 }{for(var i = 0, len = gdjs.BuyHouseCode.GDhome3cObjects1.length ;i < len;++i) {
-    gdjs.BuyHouseCode.GDhome3cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(52)) + "zł");
+    gdjs.BuyHouseCode.GDhome3cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(37)) + "zł");
 }
 }{for(var i = 0, len = gdjs.BuyHouseCode.GDMoneyTextObjects1.length ;i < len;++i) {
     gdjs.BuyHouseCode.GDMoneyTextObjects1[i].setString("Money: "+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)) + "zł");
@@ -798,13 +798,13 @@ gdjs.BuyHouseCode.condition1IsTrue_1.val = false;
 gdjs.BuyHouseCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) == 0;
 }if ( gdjs.BuyHouseCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(126)) == 0;
+gdjs.BuyHouseCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(111)) == 0;
 }}
 gdjs.BuyHouseCode.conditionTrue_1.val = true && gdjs.BuyHouseCode.condition0IsTrue_1.val && gdjs.BuyHouseCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuyHouseCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(10).sub(1);
-}{runtimeScene.getGame().getVariables().getFromIndex(126).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(111).setNumber(1);
 }}
 
 }
@@ -831,7 +831,7 @@ gdjs.BuyHouseCode.condition0IsTrue_0.val = false;
 {
 gdjs.BuyHouseCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) > 0;
 }if (gdjs.BuyHouseCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(126).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(111).setNumber(0);
 }}
 
 }

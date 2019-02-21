@@ -73,7 +73,7 @@ gdjs.MenuCode.condition1IsTrue_1 = {val:false};
 gdjs.MenuCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.MenuCode.GDButtonObjects1});gdjs.MenuCode.eventsList0x84c918 = function(runtimeScene) {
+gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.MenuCode.GDButtonObjects1});gdjs.MenuCode.eventsList0xc27390 = function(runtimeScene) {
 
 {
 
@@ -88,8 +88,8 @@ gdjs.MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x84c918
-gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.MenuCode.GDButtonObjects1});gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDRulesButtonObjects1Objects = Hashtable.newFrom({"RulesButton": gdjs.MenuCode.GDRulesButtonObjects1});gdjs.MenuCode.eventsList0x84d980 = function(runtimeScene) {
+}; //End of gdjs.MenuCode.eventsList0xc27390
+gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.MenuCode.GDButtonObjects1});gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDRulesButtonObjects1Objects = Hashtable.newFrom({"RulesButton": gdjs.MenuCode.GDRulesButtonObjects1});gdjs.MenuCode.eventsList0xc36760 = function(runtimeScene) {
 
 {
 
@@ -117,7 +117,7 @@ gdjs.MenuCode.GDHow2PlayTextObjects2.createFrom(runtimeScene.getObjects("How2Pla
 }{for(var i = 0, len = gdjs.MenuCode.GDCloseModalButtonObjects2.length ;i < len;++i) {
     gdjs.MenuCode.GDCloseModalButtonObjects2[i].setOpacity(0);
 }
-}{runtimeScene.getGame().getVariables().getFromIndex(41).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(26).setNumber(0);
 }}
 
 }
@@ -149,14 +149,14 @@ gdjs.MenuCode.GDHow2PlayTextObjects1.createFrom(runtimeScene.getObjects("How2Pla
 }{for(var i = 0, len = gdjs.MenuCode.GDCloseModalButtonObjects1.length ;i < len;++i) {
     gdjs.MenuCode.GDCloseModalButtonObjects1[i].setOpacity(255);
 }
-}{runtimeScene.getGame().getVariables().getFromIndex(41).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(26).setNumber(1);
 }}
 
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x84d980
-gdjs.MenuCode.eventsList0x84d650 = function(runtimeScene) {
+}; //End of gdjs.MenuCode.eventsList0xc36760
+gdjs.MenuCode.eventsList0xafa290 = function(runtimeScene) {
 
 {
 
@@ -167,14 +167,14 @@ gdjs.MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(
 }if (gdjs.MenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.MenuCode.eventsList0x84d980(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0xc36760(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x84d650
-gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDRulesButtonObjects1Objects = Hashtable.newFrom({"RulesButton": gdjs.MenuCode.GDRulesButtonObjects1});gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDCloseModalButtonObjects1Objects = Hashtable.newFrom({"CloseModalButton": gdjs.MenuCode.GDCloseModalButtonObjects1});gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDCloseModalButtonObjects1Objects = Hashtable.newFrom({"CloseModalButton": gdjs.MenuCode.GDCloseModalButtonObjects1});gdjs.MenuCode.eventsList0x84ed18 = function(runtimeScene) {
+}; //End of gdjs.MenuCode.eventsList0xafa290
+gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDRulesButtonObjects1Objects = Hashtable.newFrom({"RulesButton": gdjs.MenuCode.GDRulesButtonObjects1});gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDCloseModalButtonObjects1Objects = Hashtable.newFrom({"CloseModalButton": gdjs.MenuCode.GDCloseModalButtonObjects1});gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDCloseModalButtonObjects1Objects = Hashtable.newFrom({"CloseModalButton": gdjs.MenuCode.GDCloseModalButtonObjects1});gdjs.MenuCode.eventsList0xbf4d20 = function(runtimeScene) {
 
 {
 
@@ -195,14 +195,14 @@ gdjs.MenuCode.GDHow2PlayTextObjects1.createFrom(runtimeScene.getObjects("How2Pla
 }{for(var i = 0, len = gdjs.MenuCode.GDCloseModalButtonObjects1.length ;i < len;++i) {
     gdjs.MenuCode.GDCloseModalButtonObjects1[i].setOpacity(0);
 }
-}{runtimeScene.getGame().getVariables().getFromIndex(41).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(26).setNumber(0);
 }}
 
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x84ed18
-gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.MenuCode.GDcloseObjects1});gdjs.MenuCode.eventsList0x84f4d8 = function(runtimeScene) {
+}; //End of gdjs.MenuCode.eventsList0xbf4d20
+gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.MenuCode.GDcloseObjects1});gdjs.MenuCode.eventsList0xcf0d98 = function(runtimeScene) {
 
 {
 
@@ -211,13 +211,13 @@ gdjs.MenuCode.condition0IsTrue_0.val = false;
 {
 gdjs.MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.MenuCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.window.openURL("www.kredytofer.pl/", runtimeScene);
+{gdjs.evtTools.window.openURL("https://kredytofer.pl/", runtimeScene);
 }}
 
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x84f4d8
+}; //End of gdjs.MenuCode.eventsList0xcf0d98
 gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.MenuCode.GDcloseObjects1});gdjs.MenuCode.eventsList0xb0b28 = function(runtimeScene) {
 
 {
@@ -233,7 +233,7 @@ gdjs.MenuCode.condition1IsTrue_1.val = false;
 gdjs.MenuCode.condition0IsTrue_1.val = gdjs.evtTools.input.cursorOnObject(gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDButtonObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.MenuCode.condition0IsTrue_1.val ) {
 {
-gdjs.MenuCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(41)) == 0;
+gdjs.MenuCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(26)) == 0;
 }}
 gdjs.MenuCode.conditionTrue_1.val = true && gdjs.MenuCode.condition0IsTrue_1.val && gdjs.MenuCode.condition1IsTrue_1.val;
 }
@@ -244,7 +244,7 @@ gdjs.MenuCode.conditionTrue_1.val = true && gdjs.MenuCode.condition0IsTrue_1.val
 }
 }
 { //Subevents
-gdjs.MenuCode.eventsList0x84c918(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0xc27390(runtimeScene);} //End of subevents
 }
 
 }
@@ -291,7 +291,7 @@ gdjs.MenuCode.conditionTrue_1.val = true && gdjs.MenuCode.condition0IsTrue_1.val
 }
 }
 { //Subevents
-gdjs.MenuCode.eventsList0x84d650(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0xafa290(runtimeScene);} //End of subevents
 }
 
 }
@@ -351,7 +351,7 @@ gdjs.MenuCode.condition1IsTrue_1.val = false;
 gdjs.MenuCode.condition0IsTrue_1.val = gdjs.evtTools.input.cursorOnObject(gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDCloseModalButtonObjects1Objects, runtimeScene, true, true);
 }if ( gdjs.MenuCode.condition0IsTrue_1.val ) {
 {
-gdjs.MenuCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(41)) == 1;
+gdjs.MenuCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(26)) == 1;
 }}
 gdjs.MenuCode.conditionTrue_1.val = true && gdjs.MenuCode.condition0IsTrue_1.val && gdjs.MenuCode.condition1IsTrue_1.val;
 }
@@ -378,7 +378,7 @@ gdjs.MenuCode.condition1IsTrue_1.val = false;
 gdjs.MenuCode.condition0IsTrue_1.val = gdjs.evtTools.input.cursorOnObject(gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDCloseModalButtonObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.MenuCode.condition0IsTrue_1.val ) {
 {
-gdjs.MenuCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(41)) == 1;
+gdjs.MenuCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(26)) == 1;
 }}
 gdjs.MenuCode.conditionTrue_1.val = true && gdjs.MenuCode.condition0IsTrue_1.val && gdjs.MenuCode.condition1IsTrue_1.val;
 }
@@ -389,7 +389,7 @@ gdjs.MenuCode.conditionTrue_1.val = true && gdjs.MenuCode.condition0IsTrue_1.val
 }
 }
 { //Subevents
-gdjs.MenuCode.eventsList0x84ed18(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0xbf4d20(runtimeScene);} //End of subevents
 }
 
 }
@@ -409,7 +409,7 @@ gdjs.MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.M
 }
 }
 { //Subevents
-gdjs.MenuCode.eventsList0x84f4d8(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0xcf0d98(runtimeScene);} //End of subevents
 }
 
 }

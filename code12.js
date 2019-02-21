@@ -94,7 +94,7 @@ gdjs.BuySportCode.condition1IsTrue_1 = {val:false};
 gdjs.BuySportCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDs3bObjects1Objects = Hashtable.newFrom({"s3b": gdjs.BuySportCode.GDs3bObjects1});gdjs.BuySportCode.eventsList0xc65538 = function(runtimeScene) {
+gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDs3bObjects1Objects = Hashtable.newFrom({"s3b": gdjs.BuySportCode.GDs3bObjects1});gdjs.BuySportCode.eventsList0xafa358 = function(runtimeScene) {
 
 {
 
@@ -135,8 +135,8 @@ gdjs.BuySportCode.GDSatisfactionTextObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.BuySportCode.eventsList0xc65538
-gdjs.BuySportCode.eventsList0xc67b80 = function(runtimeScene) {
+}; //End of gdjs.BuySportCode.eventsList0xafa358
+gdjs.BuySportCode.eventsList0xc366e0 = function(runtimeScene) {
 
 {
 
@@ -147,9 +147,9 @@ gdjs.BuySportCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.BuySportCode.condition0IsTrue_0.val) {
 gdjs.BuySportCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyText"));
 /* Reuse gdjs.BuySportCode.GDs3bObjects1 */
-{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(64)));
+{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(49)));
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11)) + 130);
-}{runtimeScene.getGame().getVariables().getFromIndex(67).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(52).setNumber(1);
 }{for(var i = 0, len = gdjs.BuySportCode.GDs3bObjects1.length ;i < len;++i) {
     gdjs.BuySportCode.GDs3bObjects1[i].setOpacity(50);
 }
@@ -158,14 +158,14 @@ gdjs.BuySportCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyT
 }
 }
 { //Subevents
-gdjs.BuySportCode.eventsList0xc65538(runtimeScene);} //End of subevents
+gdjs.BuySportCode.eventsList0xafa358(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuySportCode.eventsList0xc67b80
-gdjs.BuySportCode.eventsList0xc39f88 = function(runtimeScene) {
+}; //End of gdjs.BuySportCode.eventsList0xc366e0
+gdjs.BuySportCode.eventsList0xbf50a0 = function(runtimeScene) {
 
 {
 
@@ -181,14 +181,14 @@ gdjs.BuySportCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.BuySportCode.eventsList0xc67b80(runtimeScene);} //End of subevents
+gdjs.BuySportCode.eventsList0xc366e0(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuySportCode.eventsList0xc39f88
-gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDs2bObjects1Objects = Hashtable.newFrom({"s2b": gdjs.BuySportCode.GDs2bObjects1});gdjs.BuySportCode.eventsList0xbe51c0 = function(runtimeScene) {
+}; //End of gdjs.BuySportCode.eventsList0xbf50a0
+gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDs2bObjects1Objects = Hashtable.newFrom({"s2b": gdjs.BuySportCode.GDs2bObjects1});gdjs.BuySportCode.eventsList0x661de8 = function(runtimeScene) {
 
 {
 
@@ -229,8 +229,8 @@ gdjs.BuySportCode.GDSatisfactionTextObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.BuySportCode.eventsList0xbe51c0
-gdjs.BuySportCode.eventsList0xbe6398 = function(runtimeScene) {
+}; //End of gdjs.BuySportCode.eventsList0x661de8
+gdjs.BuySportCode.eventsList0xbf5e10 = function(runtimeScene) {
 
 {
 
@@ -240,22 +240,22 @@ gdjs.BuySportCode.condition0IsTrue_0.val = false;
 gdjs.BuySportCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.BuySportCode.condition0IsTrue_0.val) {
 gdjs.BuySportCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyText"));
-{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(63)));
+{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(48)));
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11)) + 130);
-}{runtimeScene.getGame().getVariables().getFromIndex(66).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(51).setNumber(1);
 }{}{for(var i = 0, len = gdjs.BuySportCode.GDMoneyTextObjects1.length ;i < len;++i) {
     gdjs.BuySportCode.GDMoneyTextObjects1[i].setString("Money: "+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)) + "zł");
 }
 }
 { //Subevents
-gdjs.BuySportCode.eventsList0xbe51c0(runtimeScene);} //End of subevents
+gdjs.BuySportCode.eventsList0x661de8(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuySportCode.eventsList0xbe6398
-gdjs.BuySportCode.eventsList0xbe75d0 = function(runtimeScene) {
+}; //End of gdjs.BuySportCode.eventsList0xbf5e10
+gdjs.BuySportCode.eventsList0xbf4b88 = function(runtimeScene) {
 
 {
 
@@ -271,14 +271,14 @@ gdjs.BuySportCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.BuySportCode.eventsList0xbe6398(runtimeScene);} //End of subevents
+gdjs.BuySportCode.eventsList0xbf5e10(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuySportCode.eventsList0xbe75d0
-gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDs1bObjects1Objects = Hashtable.newFrom({"s1b": gdjs.BuySportCode.GDs1bObjects1});gdjs.BuySportCode.eventsList0xbe6d58 = function(runtimeScene) {
+}; //End of gdjs.BuySportCode.eventsList0xbf4b88
+gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDs1bObjects1Objects = Hashtable.newFrom({"s1b": gdjs.BuySportCode.GDs1bObjects1});gdjs.BuySportCode.eventsList0xc291b8 = function(runtimeScene) {
 
 {
 
@@ -319,8 +319,8 @@ gdjs.BuySportCode.GDSatisfactionTextObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.BuySportCode.eventsList0xbe6d58
-gdjs.BuySportCode.eventsList0xbe8740 = function(runtimeScene) {
+}; //End of gdjs.BuySportCode.eventsList0xc291b8
+gdjs.BuySportCode.eventsList0xbee608 = function(runtimeScene) {
 
 {
 
@@ -331,9 +331,9 @@ gdjs.BuySportCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }if (gdjs.BuySportCode.condition0IsTrue_0.val) {
 gdjs.BuySportCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyText"));
 /* Reuse gdjs.BuySportCode.GDs1bObjects1 */
-{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(62)));
+{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(47)));
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(11)) + 130);
-}{runtimeScene.getGame().getVariables().getFromIndex(65).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(50).setNumber(1);
 }{for(var i = 0, len = gdjs.BuySportCode.GDs1bObjects1.length ;i < len;++i) {
     gdjs.BuySportCode.GDs1bObjects1[i].setOpacity(50);
 }
@@ -342,14 +342,14 @@ gdjs.BuySportCode.GDMoneyTextObjects1.createFrom(runtimeScene.getObjects("MoneyT
 }
 }
 { //Subevents
-gdjs.BuySportCode.eventsList0xbe6d58(runtimeScene);} //End of subevents
+gdjs.BuySportCode.eventsList0xc291b8(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuySportCode.eventsList0xbe8740
-gdjs.BuySportCode.eventsList0xbe7ea8 = function(runtimeScene) {
+}; //End of gdjs.BuySportCode.eventsList0xbee608
+gdjs.BuySportCode.eventsList0xbf49c0 = function(runtimeScene) {
 
 {
 
@@ -365,14 +365,14 @@ gdjs.BuySportCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.BuySportCode.eventsList0xbe8740(runtimeScene);} //End of subevents
+gdjs.BuySportCode.eventsList0xbee608(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.BuySportCode.eventsList0xbe7ea8
-gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuySportCode.GDButtonObjects1});gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.BuySportCode.GDcloseObjects1});gdjs.BuySportCode.eventsList0xbef5f0 = function(runtimeScene) {
+}; //End of gdjs.BuySportCode.eventsList0xbf49c0
+gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuySportCode.GDButtonObjects1});gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.BuySportCode.GDcloseObjects1});gdjs.BuySportCode.eventsList0x6dd890 = function(runtimeScene) {
 
 {
 
@@ -381,14 +381,14 @@ gdjs.BuySportCode.condition0IsTrue_0.val = false;
 {
 gdjs.BuySportCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.BuySportCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.window.openURL("www.kredytofer.pl/", runtimeScene);
+{gdjs.evtTools.window.openURL("https://kredytofer.pl/", runtimeScene);
 }}
 
 }
 
 
-}; //End of gdjs.BuySportCode.eventsList0xbef5f0
-gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuySportCode.GDButtonObjects1});gdjs.BuySportCode.eventsList0xbf2028 = function(runtimeScene) {
+}; //End of gdjs.BuySportCode.eventsList0x6dd890
+gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.BuySportCode.GDButtonObjects1});gdjs.BuySportCode.eventsList0xc08480 = function(runtimeScene) {
 
 {
 
@@ -403,7 +403,7 @@ gdjs.BuySportCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }
 
 
-}; //End of gdjs.BuySportCode.eventsList0xbf2028
+}; //End of gdjs.BuySportCode.eventsList0xc08480
 gdjs.BuySportCode.mapOfGDgdjs_46BuySportCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.BuySportCode.GDcloseObjects1});gdjs.BuySportCode.eventsList0xb0b28 = function(runtimeScene) {
 
 {
@@ -413,7 +413,7 @@ gdjs.BuySportCode.condition0IsTrue_0.val = false;
 {
 gdjs.BuySportCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) > 0;
 }if (gdjs.BuySportCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(126).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(111).setNumber(0);
 }}
 
 }
@@ -431,13 +431,13 @@ gdjs.BuySportCode.condition1IsTrue_1.val = false;
 gdjs.BuySportCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) == 0;
 }if ( gdjs.BuySportCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(126)) == 0;
+gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(111)) == 0;
 }}
 gdjs.BuySportCode.conditionTrue_1.val = true && gdjs.BuySportCode.condition0IsTrue_1.val && gdjs.BuySportCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuySportCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(10).sub(1);
-}{runtimeScene.getGame().getVariables().getFromIndex(126).setNumber(1);
+}{runtimeScene.getGame().getVariables().getFromIndex(111).setNumber(1);
 }}
 
 }
@@ -467,13 +467,13 @@ gdjs.BuySportCode.GDs1cObjects1.createFrom(runtimeScene.getObjects("s1c"));
 gdjs.BuySportCode.GDs2cObjects1.createFrom(runtimeScene.getObjects("s2c"));
 gdjs.BuySportCode.GDs3cObjects1.createFrom(runtimeScene.getObjects("s3c"));
 {for(var i = 0, len = gdjs.BuySportCode.GDs1cObjects1.length ;i < len;++i) {
-    gdjs.BuySportCode.GDs1cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(62))+"zł");
+    gdjs.BuySportCode.GDs1cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(47))+"zł");
 }
 }{for(var i = 0, len = gdjs.BuySportCode.GDs2cObjects1.length ;i < len;++i) {
-    gdjs.BuySportCode.GDs2cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(63))+"zł");
+    gdjs.BuySportCode.GDs2cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(48))+"zł");
 }
 }{for(var i = 0, len = gdjs.BuySportCode.GDs3cObjects1.length ;i < len;++i) {
-    gdjs.BuySportCode.GDs3cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(64)) + "zł");
+    gdjs.BuySportCode.GDs3cObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(49)) + "zł");
 }
 }{for(var i = 0, len = gdjs.BuySportCode.GDMoneyTextObjects1.length ;i < len;++i) {
     gdjs.BuySportCode.GDMoneyTextObjects1[i].setString("Money: "+gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(4)) + "zł");
@@ -495,17 +495,17 @@ gdjs.BuySportCode.condition0IsTrue_0.val = false;
 gdjs.BuySportCode.condition0IsTrue_1.val = false;
 gdjs.BuySportCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuySportCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(67)) == 0;
+gdjs.BuySportCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(52)) == 0;
 }if ( gdjs.BuySportCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(64));
+gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(49));
 }}
 gdjs.BuySportCode.conditionTrue_1.val = true && gdjs.BuySportCode.condition0IsTrue_1.val && gdjs.BuySportCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuySportCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.BuySportCode.eventsList0xc39f88(runtimeScene);} //End of subevents
+gdjs.BuySportCode.eventsList0xbf50a0(runtimeScene);} //End of subevents
 }
 
 }
@@ -520,13 +520,13 @@ gdjs.BuySportCode.condition0IsTrue_0.val = false;
 gdjs.BuySportCode.condition0IsTrue_1.val = false;
 gdjs.BuySportCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuySportCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(62)));
+gdjs.BuySportCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(47)));
 if( gdjs.BuySportCode.condition0IsTrue_1.val ) {
     gdjs.BuySportCode.conditionTrue_1.val = true;
 }
 }
 {
-gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(65)) == 1;
+gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(50)) == 1;
 if( gdjs.BuySportCode.condition1IsTrue_1.val ) {
     gdjs.BuySportCode.conditionTrue_1.val = true;
 }
@@ -553,17 +553,17 @@ gdjs.BuySportCode.condition0IsTrue_0.val = false;
 gdjs.BuySportCode.condition0IsTrue_1.val = false;
 gdjs.BuySportCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuySportCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(66)) == 0;
+gdjs.BuySportCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(51)) == 0;
 }if ( gdjs.BuySportCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(63));
+gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(48));
 }}
 gdjs.BuySportCode.conditionTrue_1.val = true && gdjs.BuySportCode.condition0IsTrue_1.val && gdjs.BuySportCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuySportCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.BuySportCode.eventsList0xbe75d0(runtimeScene);} //End of subevents
+gdjs.BuySportCode.eventsList0xbf4b88(runtimeScene);} //End of subevents
 }
 
 }
@@ -578,13 +578,13 @@ gdjs.BuySportCode.condition0IsTrue_0.val = false;
 gdjs.BuySportCode.condition0IsTrue_1.val = false;
 gdjs.BuySportCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuySportCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(64)));
+gdjs.BuySportCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(49)));
 if( gdjs.BuySportCode.condition0IsTrue_1.val ) {
     gdjs.BuySportCode.conditionTrue_1.val = true;
 }
 }
 {
-gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(67)) == 1;
+gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(52)) == 1;
 if( gdjs.BuySportCode.condition1IsTrue_1.val ) {
     gdjs.BuySportCode.conditionTrue_1.val = true;
 }
@@ -611,17 +611,17 @@ gdjs.BuySportCode.condition0IsTrue_0.val = false;
 gdjs.BuySportCode.condition0IsTrue_1.val = false;
 gdjs.BuySportCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuySportCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(65)) == 0;
+gdjs.BuySportCode.condition0IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(50)) == 0;
 }if ( gdjs.BuySportCode.condition0IsTrue_1.val ) {
 {
-gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(62));
+gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(47));
 }}
 gdjs.BuySportCode.conditionTrue_1.val = true && gdjs.BuySportCode.condition0IsTrue_1.val && gdjs.BuySportCode.condition1IsTrue_1.val;
 }
 }if (gdjs.BuySportCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.BuySportCode.eventsList0xbe7ea8(runtimeScene);} //End of subevents
+gdjs.BuySportCode.eventsList0xbf49c0(runtimeScene);} //End of subevents
 }
 
 }
@@ -636,13 +636,13 @@ gdjs.BuySportCode.condition0IsTrue_0.val = false;
 gdjs.BuySportCode.condition0IsTrue_1.val = false;
 gdjs.BuySportCode.condition1IsTrue_1.val = false;
 {
-gdjs.BuySportCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(63)));
+gdjs.BuySportCode.condition0IsTrue_1.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) >= gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(48)));
 if( gdjs.BuySportCode.condition0IsTrue_1.val ) {
     gdjs.BuySportCode.conditionTrue_1.val = true;
 }
 }
 {
-gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(66)) == 1;
+gdjs.BuySportCode.condition1IsTrue_1.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(51)) == 1;
 if( gdjs.BuySportCode.condition1IsTrue_1.val ) {
     gdjs.BuySportCode.conditionTrue_1.val = true;
 }
@@ -691,7 +691,7 @@ gdjs.BuySportCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.BuySportCode.eventsList0xbef5f0(runtimeScene);} //End of subevents
+gdjs.BuySportCode.eventsList0x6dd890(runtimeScene);} //End of subevents
 }
 
 }
@@ -711,7 +711,7 @@ gdjs.BuySportCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.BuySportCode.eventsList0xbf2028(runtimeScene);} //End of subevents
+gdjs.BuySportCode.eventsList0xc08480(runtimeScene);} //End of subevents
 }
 
 }

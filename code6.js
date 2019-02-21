@@ -33,7 +33,7 @@ gdjs.GameOverCode.condition0IsTrue_0 = {val:false};
 gdjs.GameOverCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.GameOverCode.mapOfGDgdjs_46GameOverCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.GameOverCode.GDcloseObjects1});gdjs.GameOverCode.eventsList0xca9a38 = function(runtimeScene) {
+gdjs.GameOverCode.mapOfGDgdjs_46GameOverCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.GameOverCode.GDcloseObjects1});gdjs.GameOverCode.eventsList0x89cd30 = function(runtimeScene) {
 
 {
 
@@ -42,14 +42,14 @@ gdjs.GameOverCode.condition0IsTrue_0.val = false;
 {
 gdjs.GameOverCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.GameOverCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.window.openURL("www.kredytofer.pl/", runtimeScene);
+{gdjs.evtTools.window.openURL("https://kredytofer.pl/", runtimeScene);
 }}
 
 }
 
 
-}; //End of gdjs.GameOverCode.eventsList0xca9a38
-gdjs.GameOverCode.mapOfGDgdjs_46GameOverCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.GameOverCode.GDButtonObjects1});gdjs.GameOverCode.eventsList0xc69b88 = function(runtimeScene) {
+}; //End of gdjs.GameOverCode.eventsList0x89cd30
+gdjs.GameOverCode.mapOfGDgdjs_46GameOverCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.GameOverCode.GDButtonObjects1});gdjs.GameOverCode.eventsList0xbfecb0 = function(runtimeScene) {
 
 {
 
@@ -64,7 +64,7 @@ gdjs.GameOverCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPres
 }
 
 
-}; //End of gdjs.GameOverCode.eventsList0xc69b88
+}; //End of gdjs.GameOverCode.eventsList0xbfecb0
 gdjs.GameOverCode.mapOfGDgdjs_46GameOverCode_46GDButtonObjects1Objects = Hashtable.newFrom({"Button": gdjs.GameOverCode.GDButtonObjects1});gdjs.GameOverCode.mapOfGDgdjs_46GameOverCode_46GDcloseObjects1Objects = Hashtable.newFrom({"close": gdjs.GameOverCode.GDcloseObjects1});gdjs.GameOverCode.eventsList0xb0b28 = function(runtimeScene) {
 
 {
@@ -81,7 +81,7 @@ gdjs.GameOverCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 }
 }
 { //Subevents
-gdjs.GameOverCode.eventsList0xca9a38(runtimeScene);} //End of subevents
+gdjs.GameOverCode.eventsList0x89cd30(runtimeScene);} //End of subevents
 }
 
 }
@@ -105,7 +105,7 @@ gdjs.GameOverCode.GDPlayAgainObjects1.createFrom(runtimeScene.getObjects("PlayAg
 }
 }
 { //Subevents
-gdjs.GameOverCode.eventsList0xc69b88(runtimeScene);} //End of subevents
+gdjs.GameOverCode.eventsList0xbfecb0(runtimeScene);} //End of subevents
 }
 
 }
@@ -155,36 +155,36 @@ gdjs.GameOverCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gd
 {
 {runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(3);
 }{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(1000);
-}{runtimeScene.getGame().getVariables().getFromIndex(53).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(71).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(65).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(59).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(66).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(60).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(72).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(54).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(67).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(61).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(55).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(38).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(56).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(50).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(44).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(51).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(45).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(57).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(39).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(52).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(46).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(58).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(40).setNumber(0);
 }{runtimeScene.getGame().getVariables().get("money").setNumber(2000);
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setString("No job");
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setString("High school");
 }{runtimeScene.getGame().getVariables().getFromIndex(6).setString("No relationship");
 }{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(5).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(34).setNumber(2018);
+}{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(2018);
 }{runtimeScene.getGame().getVariables().getFromIndex(9).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(14).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(12).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(33).setNumber(9);
-}{runtimeScene.getGame().getVariables().getFromIndex(126).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(42).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(35).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(49).setNumber(0);
-}{runtimeScene.getGame().getVariables().getFromIndex(40).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(9);
+}{runtimeScene.getGame().getVariables().getFromIndex(111).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(27).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(34).setNumber(0);
+}{runtimeScene.getGame().getVariables().getFromIndex(25).setNumber(0);
 }}
 
 }
